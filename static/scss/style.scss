@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+$primary-col : #ff4248;
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0 40px;
+  height: 50px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  
+  &__logo {
+    display: block;
+
+    &__btn {
+      display: block;
+      width: 160px;
+      height: 35px;
+      background: url(../images/logo_choigoon.png) no-repeat center / 100% auto;
+    }
+  }
+
+  .page__inform {
+    &__wrap {
+      display: block;
+      position: relative;
+    }
+
+    &__dropdown__btn {
+      display: none;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+    }
+
+    &__btn {
+      display: block;
+      font-weight: 700;
+      color: #333;
+    }
+  }
+}
+
+.footer {
+  padding: 15px 0;
+  text-align: center;
+
+  &__txt {
+    font-size: 12px;
+    letter-spacing: 2vw;
+    margin-left: 20px;
+    color: #666;
+  }
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.section {
+  position: relative;
+  min-height: calc(100vh - 50px);
+
+  &__inner {
+    padding: 0 26px;
+    width: 100%;
+  }
+
+  &__title {
+    padding: 30px 0;
+    text-align: center;
+
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+
+      em {
+        font-size: .7em;
+      }
+    }
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #fff 50%, #eee 50%);
+  }
+}
+
+.intro {
+  &__wrap {
+    position: relative;
+    margin-top: -30px;
+    text-align: center;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-top: -15px;
+      margin-left: -171px;
+      width: 343px;
+      height: 119px;
+      background: url(../images/bg_pbtxt.png) no-repeat center / 100% auto;
+      opacity: .2;
+    }
+    
+
+    [class^='txt__type']{
+      display: block;
+      position: relative;
+      font-size: 20px;
+      color: #000;
+      transform: scale(1, .9);
+    }
+
+    .txt__type {
+      &01 {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        margin-left: 5px;
+        color: $primary-col;
+      }
+
+      &02 {
+        padding: 10px 0 30px;
+        font-size: 42px;
+        font-weight: 900;
+        letter-spacing: 20px;
+        margin-left: 20px;
+      }
+
+      &03 {
+        em {
+          font-weight: 900;
+          text-decoration: underline;
+          color: $primary-col;
+        }
+      }
+    }
+  }
+}
+
+.self__study {
+  &__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .img__wrap {
+      display: block;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+
+      &::before {
+        content: "";
+        display: block;
+        padding-bottom: 50%;
+      }
+
+      img {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .txt {
+      &__wrap {
+        margin-top: 10px;
+        padding: 10px 0;
+        text-align: center;
+        background-color: #eee;
+      }
+
+      &__title {
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      &__desc {
+        padding: 5px 0;
+        font-size: 12px;
+      }
+    }
+  }
+
+  &__li {
+    width: 25%;
+    border: 1px solid #ddd;
+  }
+
+  &__link {
+    display: block;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+
+    &__logo {
+      &__btn {
+        width: 130px;
+        height: 28px;
+      }
+    }
+    
+
+    .page__inform {
+      &__dropdown__btn {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url(../images/ico_menu.png) no-repeat center / 20px 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+
+      &__list {
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 50px;
+        gap: 10px;
+        background-color: #fff;
+        box-shadow: 0 3px 10px 0px rgb(0 0 0 / 10%);
+  
+        &.is-open {
+          display: block;
+        }
+      }
+
+      &__li {
+        border-top: 1px solid #eee;
+
+        &:first-child {
+          border-top: 0;
+        }
+      }
+
+      &__btn {
+        padding: 20px 0;
+        
+      }
+    }
+  }
+
+  .section {
+    &__inner {
+      padding: 0 5px;
+    }
+  }
+
+  .intro {
+    &__wrap {
+      .txt__type {
+        &02 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  .self__study {
+    &__li {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .self__study {
+    &__li {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+/*-------------------------------------------------------------------
+	@Resets
+-------------------------------------------------------------------*/
+html, body {height: 100%; text-size-adjust:none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none;}
+::before,::after,
+html, body, div, ul, ol, dl, li, dt, dd, p, h1, h2, h3, h4, h5, h6, table, thead, tbody, tr, th, td, caption, address, article, aside,
+canvas, details, figure, figcaption, main, footer, header, menu, nav, section,
+button, select, textarea, input, form, fieldset, legend, label, a, span, strong, em, address, pre, code, dfn, small, i, b {margin:0; padding:0; border:0; list-style:none; font-style:normal; font-size:inherit; font-weight:inherit; font-family:inherit; color:inherit; box-sizing:inherit; -webkit-box-sizing:inherit; -moz-box-sizing:inherit; -o-box-sizing:inherit; -webkit-print-color-adjust:exact;}
+main, article, aside, canvas, details, figure, figcaption, footer, header, menu, nav, section {display:block;}
+body {word-break:normal; word-wrap:break-word; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box;}
+[hidden] {display:none;}
+fieldset, iframe {width:100%;}
+img, a, frame, iframe, fieldset {border:0;}
+a {text-decoration:none;}
+table {width:100%; border-spacing:0; border-collapse:collapse;}
+caption {height:1px; overflow:hidden;}
+legend {position:fixed; overflow: hidden; border: 0; margin:-1px; width: 1px; height: 1px; clip: rect(1px, 1px, 1px, 1px); -webkit-clip-path: inset(50%); /* clip-path: inset(50%); */}
+button {overflow:hidden; background-color:transparent; cursor:pointer;}
+button::-moz-focus-inner {border:0px; padding:0px;}
+input[type='checkbox'],input[type='radio'],select {appearance:none; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none;}
+textarea {resize:none;}
+select::-ms-expand {display:none;}
+input::-ms-clear,
+input::-ms-reveal {display:none; width:0; height:0;}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {display:none;}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {-webkit-appearance:none; margin:0;}
+input::-webkit-calendar-picker-indicator {-webkit-appearance:none;}
+.dv-android [tabindex='0']:focus,
+.dv-android a:focus,
+.dv-android button:focus,
+.dv-android input:focus,
+.dv-android textarea:focus,
+.dv-android select:focus {outline:0;}
+.dv-ios [tabindex='0'],
+.dv-ios a,
+.dv-ios button,
+.dv-ios input,
+.dv-ios textarea,
+.dv-ios select {-webkit-tap-highlight-color:transparent;}
+
+[hidden],hr {display: none}
+
+.blind {position: absolute;top: -999em;left: -999em;z-index: 0;width: 1px;height: 1px;overflow: hidden}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  color: #000;
+  font-family: "Noto Sans KR","sans-serif","Apple SD Gothic Neo","AppleGothic","Apple Gothic","-apple-system",sans-serif !important;
+  font-size: 1.4rem;
+	font-weight: 300;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
