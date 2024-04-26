@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <title>06-MUSIC 듣다 음악리뷰 목록 PW_D_OFF_06_01_00.html</title>
+  <link rel="stylesheet" type="text/css" href="../src/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/style.css">
+</head>
+
+<body>
+  <div id="wrap" class="wrap">
+
+    <!-- Header -->
+    <header class="header" id="header"> <!-- pageTOP 위치 아닐시 .header-scroll 클래스 붙음 -->
+
+      <div class="header_dep1">
+        <div class="header_inner">
+          <div class="header_top">
+            <div class="header_menu">
+              <a href="javascript:void(0);" class="link_siteback"><span class="blind">뒤로</span></a>
+              
+              <div class="header_gnb_wrap">
+                <div class="dropdown_menu">
+                  <button class="btn_dropdown" data-current="music"><span class="txt">MUSIC 듣다</span></button> <!-- 활성화시 .is-open -->
+                  <div class="dropdown_dep2">
+                    <ul class="dropdown_dep2_list">
+                      <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2" data-drop-sel="home"><span class="txt">HOME</span></a></li>
+                      <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2" data-drop-sel="music"><span class="txt">MUSIC 듣다</span></a></li>
+                      <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2" data-drop-sel="stagecine"><span class="txt">STAGE-CINE 즐기다</span></a></li>
+                      <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2" data-drop-sel="art"><span class="txt">ART 보다</span></a></li>
+                      <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2" data-drop-sel="book"><span class="txt">BOOK 읽다</span></a></li>
+                      <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2" data-drop-sel="artetalk"><span class="txt">arte TALK</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="header_util">
+              <div class="list_header_util">
+                <button class="btn_util_search" data-dep2="search"><span class="blind">검색</span></button>
+                <button class="btn_util_mypage" data-dep2="mypage"><span class="blind">마이페이지</span></button>
+                <button class="btn_allmenu" data-dep2="allmenu"><span class="blind">전체메뉴</span></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="header_btm">
+            <div class="header_lnb">
+              <div class="dropdown_menu">
+                <button class="btn_dropdown"><span class="txt">최신순</span></button> <!-- 활성화시 .is-open -->
+                <div class="dropdown_dep2">
+                  <ul class="dropdown_dep2_list">
+                    <li class="dropdown_dep2_item item-on"> <!-- 선택된 버튼 .item-on -->
+                      <button class="btn_dropdown_dep2"><span class="txt">리뷰</span></button>
+                    </li>
+
+                    <li class="dropdown_dep2_item">
+                      <button class="btn_dropdown_dep2"><span class="txt">공연 정보</span></button>
+                    </li>
+
+                    <li class="dropdown_dep2_item">
+                      <button class="btn_dropdown_dep2"><span class="txt">칼럼 연재</span></button>
+                    </li>
+
+                    <li class="dropdown_dep2_item">
+                      <button class="btn_dropdown_dep2"><span class="txt">뉴스 인터뷰</span></button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header_dep2">
+        <div class="header_inner">
+
+          <div class="hd_dep2_item_search">
+            <div class="dep2_item_conts">
+              <div class="search_box">
+                <input type="text" class="inp_search" placeholder="검색어를 입력하세요">
+              </div>
+
+              <div class="sub_link_wrap">
+                <div class="title_wrap">
+                  <strong class="txt_title">Quick Links</strong>
+                </div>
+
+                <ul class="submenu_list">
+                  <li class="submenu_item"><a href="javascript:void(0);" class="link_submenu"><span class="txt">arte Map</span></a></li>
+                  <li class="submenu_item"><a href="javascript:void(0);" class="link_submenu"><span class="txt">artist DB</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="hd_dep2_item_mypage">
+            <div class="dep2_item_conts">
+              <div class="login_box">
+                <div class="login_box_item_msg">
+                  <span class="txt_loginmsg">로그인을 해주세요</span>
+                </div>
+
+                <div class="login_box_item_btn">
+                  <button class="btn_login"><em class="txt">로그인/회원가입</em></button>
+                </div>
+              </div>
+
+              <div class="sub_link_wrap">
+                <div class="title_wrap">
+                  <strong class="txt_title">마이페이지</strong>
+                </div>
+
+                <ul class="submenu_list">
+                  <li class="submenu_item"><a href="javascript:void(0);" class="link_submenu"><span class="txt">나의 정보</span></a></li>
+                  <li class="submenu_item"><a href="javascript:void(0);" class="link_submenu"><span class="txt">나의 활동</span></a></li>
+                  <li class="submenu_item"><a href="javascript:void(0);" class="link_submenu"><span class="txt">좋아한 콘텐츠</span></a></li>
+                  <li class="submenu_item"><a href="javascript:void(0);" class="link_submenu"><span class="txt">1:1 문의</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header_allmenu">
+        <div class="header_allmenu_inner">
+          <div class="allmenu_top">
+            <h1 class="allmenu_logo"><a href="" class="link_allmenu_logo"><span class="blind">Arte</span></a></h1>
+            <div class="login_box">
+              <div class="login_box_item_btn">
+                <button class="btn_login"><em class="txt">로그인/회원가입</em></button>
+              </div>
+            </div>
+            
+            <div class="header_util">
+              <div class="list_header_util">
+                <button class="btn_util_home" data-dep2="home"><span class="blind">메인페이지</span></button>
+                <button class="btn_util_search" data-dep2="search"><span class="blind">검색</span></button>
+                <button class="btn_util_mypage" data-dep2="mypage"><span class="blind">마이페이지</span></button>
+                <button class="btn_allmenu" data-dep2="allmenu"><span class="blind">전체메뉴</span></button>
+                <button class="btn_allmenu_closed" data-dep2="closed"><span class="blind">전체메뉴 닫기</span></button>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="allmenu_btm">
+            <div class="allmenu_btm_item_nav">
+              <ul class="list_allmenu_nav">
+                <li class="allmenu_nav_item">
+                  <div class="allmenu_nav_wrap">
+                    <div class="title_wrap">
+                      <strong class="txt_title"><em>MUSIC</em> 듣다</strong>
+                      <button class="btn_txt_title" data-drop-sel="music"><em>MUSIC</em> 듣다</button>
+                    </div>
+                    <div class="allmenu_nav_bx">
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">리뷰</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">공연 정보</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">칼럼·연재</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">뉴스·인터뷰</span></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="allmenu_nav_item">
+                  <div class="allmenu_nav_wrap">
+                    <div class="title_wrap">
+                      <strong class="txt_title"><em>STAGE·CINE</em> 즐기다</strong>
+                      <button class="btn_txt_title" data-drop-sel="stagecine"><em>STAGE·CINE</em> 즐기다</button>
+                    </div>
+                    <div class="allmenu_nav_bx">
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">리뷰</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">공연 정보</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">칼럼·연재</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">뉴스·인터뷰</span></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="allmenu_nav_item">
+                  <div class="allmenu_nav_wrap">
+                    <div class="title_wrap">
+                      <strong class="txt_title"><em>ART</em> 보다</strong>
+                      <button class="btn_txt_title" data-drop-sel="art"><em>ART</em> 보다</button>
+                    </div>
+                    <div class="allmenu_nav_bx">
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">리뷰</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">전시 정보</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">칼럼·연재</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">글로벌 아트</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">뉴스·인터뷰</span></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="allmenu_nav_item">
+                  <div class="allmenu_nav_wrap">
+                    <div class="title_wrap">
+                      <strong class="txt_title"><em>BOOK</em> 읽다</strong>
+                      <button class="btn_txt_title" data-drop-sel="book"><em>BOOK</em> 읽다</button>
+                    </div>
+                    <div class="allmenu_nav_bx">
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">리뷰</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">도서 정보</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">뉴스·인터뷰</span></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="allmenu_nav_item">
+                  <div class="allmenu_nav_wrap">
+                    <div class="title_wrap">
+                      <strong class="txt_title"><em>arte</em> TALK</strong>
+                      <button class="btn_txt_title" data-drop-sel="artetalk"><em>arte</em> TALK</button>
+                    </div>
+                    <div class="allmenu_nav_bx">
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">문화예술계 소식</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">arte TALK TALK</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">공지사항</span></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="allmenu_nav_item">
+                  <div class="allmenu_nav_wrap">
+                    <div class="title_wrap">
+                      <strong class="txt_title"><em>arteTV</em> 유튜브</strong>
+                      <button class="btn_txt_title" data-drop-sel="stagecine"><em>arteTV</em> 유튜브</button>
+                    </div>
+                    <div class="allmenu_nav_bx">
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">arteTV 유튜브</span></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="allmenu_nav_item">
+                  <div class="allmenu_nav_wrap">
+                    <div class="title_wrap">
+                      <strong class="txt_title"><em>ART</em> FINDER</strong>
+                      <button class="btn_txt_title" data-drop-sel="art"><em>ART</em> FINDER</button>
+                    </div>
+                    <div class="allmenu_nav_bx">
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">arte Map</span></a>
+                      <a href="javascript:void(0);" class="link_allmenu_nav"><span class="txt_nav">artist DB</span></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="allmenu_nav_item item_side">
+                  <div class="allmenu_btm_item_side">
+                    <div class="allmenu_banner">
+                      <div class="swiper allmenu_swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="allmenu_swiper_wrap">
+                              <a href="javascript:void(0);" class="link_allmenu_swiper">
+                                <div class="allmenu_swiper_img_wrap"><img src="../src/image/@temp_allmenu_banner01.jpg" alt=""></div>
+                                <div class="allmenu_txt_wrap"><span class="txt">아르떼 개편 및 집콕집밖 설특별전 감상이벤트 1</span></div>
+                              </a>
+                            </div>
+                          </div>
+      
+                          <div class="swiper-slide">
+                            <div class="allmenu_swiper_wrap">
+                              <a href="javascript:void(0);" class="link_allmenu_swiper">
+                                <div class="allmenu_swiper_img_wrap"><img src="../src/image/@temp_allmenu_banner01.jpg" alt=""></div>
+                                <div class="allmenu_txt_wrap"><span class="txt">아르떼 개편 및 집콕집밖 설특별전 감상이벤트 2</span></div>
+                              </a>
+                            </div>
+                          </div>
+      
+                          <div class="swiper-slide">
+                            <div class="allmenu_swiper_wrap">
+                              <a href="javascript:void(0);" class="link_allmenu_swiper">
+                                <div class="allmenu_swiper_img_wrap"><img src="../src/image/@temp_allmenu_banner01.jpg" alt=""></div>
+                                <div class="allmenu_txt_wrap"><span class="txt">아르떼 개편 및 집콕집밖 설특별전 감상이벤트 3</span></div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+      
+                        <div class="swiper-pagination"></div>
+                      </div>
+                    </div>
+      
+                    <div class="allmenu_friends_site">
+                      <div class="title_wrap"><strong class="txt_title">아르떼와 친구들</strong></div>
+      
+                      <ul class="list_friends_site">
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site01.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">유니버설뮤직 클래식</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site02.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">민음사TV</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site03.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">금호아트홀</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site01.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">하우스콘서트</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site02.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">예술의 이유</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site03.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">워너클래식 코리아</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site01.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">공셸TV</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site02.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">유니버설뮤직 클래식</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site03.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">민음사TV</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site01.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">첼로댁</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site02.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">하우스콘서트</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site03.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">예술의 이유</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site01.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">첼로댁</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site02.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">하우스콘서트</span></div>
+                          </a>
+                        </li>
+      
+                        <li class="friends_site_item">
+                          <a href="javascript:void(0);" class="link_site_item">
+                            <div class="img_wrap"><img src="../src/image/img_friends_site03.png" alt=""></div>
+                            <div class="inform_wrap"><span class="txt_inform">예술의 이유</span></div>
+                          </a>
+                        </li>
+                      </ul>
+      
+                      <div class="btn_wrap">
+                        <button class="btn_friends_site"><span class="blind">열기</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--// Header -->
+
+    <!-- Container -->
+    <div class="container" id="container">
+      <div class="content" id="content">
+
+        <!-- Section all -->
+        <div class="section_wrap">
+
+          <!-- section kv_swiper -->
+          <section class="section sec_kvswiper">
+            <div class="section_inner">
+              <div class="title_wrap">
+                <h3 class="txt_title">REVIEW</h3>
+              </div>
+
+              <div class="swiper_items">
+
+                <!-- swiper -->
+                <div class="swiper kv_swiper_img">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="kv_swiper_wrap">
+                        <a href="javascript:void(0);" class="link_kv_swiper">
+                          <div class="kv_swiper_img_wrap">
+                            <img src="../src/image/@kv1_roll01.png" alt="">
+                            <button class="btn_liked"><span class="blind">좋아요</span></button>
+                            <span class="label_tag_cate"><em class="txt">클래식</em></span>
+                          </div>
+
+                          <div class="kv_swiper_inform">
+                            <div class="inform_txtbx_title">
+                              <span class="txt_title">슬라이드01 사진가의 사진가, 알버트 왓슨이 말하는 ‘WATSON, THE MAESTRO’</span>
+                            </div>
+          
+                            <div class="inform_txtbx_conts">
+                              <div class="txtbx_item_name"><span class="txt_name">작성자 이름</span></div>
+                              <div class="txtbx_item_label"><span class="label_tag_line"><em class="txt">회원</em></span></div>
+                              <div class="txtbx_item_score"><span class="score_badge_grade g01"></span><!-- 평점에따라 .g01 ~ .g05 클래스 추가 ex) 평점1 = .g01 / 평점2 = .g02 --></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="kv_swiper_wrap">
+                        <a href="javascript:void(0);" class="link_kv_swiper">
+                          <div class="kv_swiper_img_wrap">
+                            <img src="../src/image/@kv1_roll02.png" alt="">
+                            <button class="btn_liked"><span class="blind">좋아요</span></button>
+                            <span class="label_tag_cate"><em class="txt">클래식</em></span>
+                          </div>
+
+                          <div class="kv_swiper_inform">
+                            <div class="inform_txtbx_title">
+                              <span class="txt_title">슬라이드02 알버트 왓슨이 말하는 사진가의 사진가, ‘WATSON, THE MAESTRO’</span>
+                            </div>
+          
+                            <div class="inform_txtbx_conts">
+                              <div class="txtbx_item_name"><span class="txt_name">작성자 이름</span></div>
+                              <div class="txtbx_item_label"><span class="label_tag_line"><em class="txt">회원</em></span></div>
+                              <div class="txtbx_item_score"><span class="score_badge_grade g01"></span></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="kv_swiper_wrap">
+                        <a href="javascript:void(0);" class="link_kv_swiper">
+                          <div class="kv_swiper_img_wrap">
+                            <img src="../src/image/@kv1_roll03.png" alt="">
+                            <button class="btn_liked"><span class="blind">좋아요</span></button>
+                            <span class="label_tag_cate"><em class="txt">클래식</em></span>
+                          </div>
+
+                          <div class="kv_swiper_inform">
+                            <div class="inform_txtbx_title">
+                              <span class="txt_title">슬라이드03 타이틀텍스트</span>
+                            </div>
+          
+                            <div class="inform_txtbx_conts">
+                              <div class="txtbx_item_name"><span class="txt_name">작성자 이름</span></div>
+                              <div class="txtbx_item_label"><span class="label_tag_line"><em class="txt">회원</em></span></div>
+                              <div class="txtbx_item_score"><span class="score_badge_grade g01"></span></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="kv_swiper_wrap">
+                        <a href="javascript:void(0);" class="link_kv_swiper">
+                          <div class="kv_swiper_img_wrap">
+                            <img src="../src/image/@kv1_roll04.png" alt="">
+                            <button class="btn_liked"><span class="blind">좋아요</span></button>
+                            <span class="label_tag_cate"><em class="txt">클래식</em></span>
+                          </div>
+
+                          <div class="kv_swiper_inform">
+                            <div class="inform_txtbx_title">
+                              <span class="txt_title">슬라이드04 사진가의 사진가, 알버트 왓슨이 말하는 ‘WATSON, THE MAESTRO’ 슬라이드04 04 04 네번째 슬라이드</span>
+                            </div>
+          
+                            <div class="inform_txtbx_conts">
+                              <div class="txtbx_item_name"><span class="txt_name">작성자 이름</span></div>
+                              <div class="txtbx_item_label"><span class="label_tag_line"><em class="txt">회원</em></span></div>
+                              <div class="txtbx_item_score"><span class="score_badge_grade g01"></span></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- // swiper -->
+
+                <!-- swiper - inform txtonly -->
+                <div class="kv_swiper_inform" aria-hidden="true">
+                  <div class="kv_swiper_inform_inner">
+
+                    <div class="kv_swiper_inform_data"></div>
+
+                    <div class="kv_swiper_controller">
+                      <div class="controller_moveing">
+                        <div class="swiper-pagination"></div>
+                        <button class="btn_swiperpause"><span class="blind">swiper stop</span></button>
+                      </div>
+
+                      <div class="controller_navigation">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      </div>
+                    </div>    
+                  </div>
+                </div>
+                <!-- // swiper - inform -->
+              </div>
+            </div>
+
+          </section>
+          <!-- // section kv_swiper -->
+
+          <!-- section ad_swiper -->
+          <section class="sectopm sec_adswiper">
+            <div class="section_inner">
+              <div class="swiper ad_swiper_review">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="ad_swiper_wrap">
+                      <a href="javascript:void(0);" class="link_ad_swiper">
+                        <div class="ad_swiper_img_wrap">
+                          <img src="../src/image/@ad_banner01_pc.png" alt="" class="img_pc">
+                          <img src="../src/image/@ad_banner01_mo.png" alt="" class="img_mo">
+                          <span class="blind">the Habsburg empore 합스부르크 600년전 2022.10.25 - 2023.03.01</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="ad_swiper_wrap">
+                      <a href="javascript:void(0);" class="link_ad_swiper">
+                        <div class="ad_swiper_img_wrap">
+                          <img src="../src/image/@ad_banner02_pc.png" alt="" class="img_pc">
+                          <img src="../src/image/@ad_banner02_mo.png" alt="" class="img_mo">
+                          <span class="blind">the Habsburg empore 합스부르크 600년전 2022.10.25 - 2023.03.01</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ad_swiper_controller">
+                  <div class="controller_moveing">
+                    <div class="swiper-pagination"></div>
+                    <button class="btn_swiperpause"><span class="blind">swiper stop</span></button>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </section>
+          <!-- // section ad_swiper -->
+
+          <!-- sec_popular_hashtag -->
+          <section class="section sec_popular_hashtag">
+            <div class="section_inner">
+              <div class="popular_hashtag_wrap">
+                <div class="hashtag_title">
+                  <strong class="txt_title">금주의 인기 검색어</strong>
+                </div>
+
+                <div class="hashtag_conts">
+                  <a href="javascript:void(0);" class="label_tag_hashtag"><em class="txt"># 브로드웨이24번가</em></a>
+                  <a href="javascript:void(0);" class="label_tag_hashtag"><em class="txt"># 태양의 서커스</em></a>
+                  <a href="javascript:void(0);" class="label_tag_hashtag"><em class="txt"># 마틸다</em></a>
+                  <a href="javascript:void(0);" class="label_tag_hashtag"><em class="txt"># 온 더 비트</em></a>
+                  <a href="javascript:void(0);" class="label_tag_hashtag"><em class="txt"># 멕베스 레퀴엠</em></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- // sec_popular_hashtag -->
+
+          <!-- sec_arte_review -->
+          <section class="section sec_arte_review">
+            <div class="section_inner">
+
+              <!-- sec_sub_panel -->
+              <div class="sec_sub_panel_area">
+
+                <div class="sec_sub_panel">
+                  <div class="sub_panel_inner">
+                    <div class="sub_panel_title">
+                      <h4 class="txt_title">arte 추천 전문가 리뷰</strong>
+                    </div>
+
+                    <div class="sub_panel_conts">
+                      <div class="panel_cont_list list_review">
+                        <!-- 추천리뷰 없는 경우 .no_data 클래스추가 -->
+                        <div class="panel_cont_item no_data">
+                          <div class="inform_wrap">
+                            <div class="inform_desc">
+                              <span class="txt_name">등록된 추천 전문가 리뷰가 없습니다.</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- // 추천리뷰 없는 경우 -->
+
+                        <div class="panel_cont_item">
+                          <a href="javascript:void(0);" class="link_panel_cont">
+                            <div class="inform_wrap">
+                              <div class="inform_title">
+                                <strong class="txt_title">〈베토벤;Beethoven Secret〉</strong>
+                              </div>
+                              
+                              <div class="inform_desc">
+                                <span class="txt_name">움파룸파</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="panel_cont_item">
+                          <a href="javascript:void(0);" class="link_panel_cont">
+                            <div class="img_wrap"><img src="../src/image/@temp_thumb07.png" alt=""></div>
+                            <div class="inform_wrap">
+                              <div class="inform_title">
+                                <strong class="txt_title">원작을 읽고 가면 친절한 극</strong>
+                              </div>
+                              
+                              <div class="inform_desc">
+                                <span class="txt_name">김동욱</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="panel_cont_item">
+                          <a href="javascript:void(0);" class="link_panel_cont">
+                            <div class="img_wrap"><img src="../src/image/@temp_thumb08.png" alt=""></div>
+                            <div class="inform_wrap">
+                              <div class="inform_title">
+                                <strong class="txt_title">올해의 마지막을 브로드웨이 42번가와 함께! 올해의 마지막을 브로드웨이 42번가와 함께!</strong>
+                              </div>
+                              
+                              <div class="inform_desc">
+                                <span class="txt_name">김동욱</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="panel_cont_item">
+                          <a href="javascript:void(0);" class="link_panel_cont">
+                            <div class="img_wrap"><img src="../src/image/@temp_thumb09.png" alt=""></div>
+                            <div class="inform_wrap">
+                              <div class="inform_title">
+                                <strong class="txt_title">〈베토벤;Beethoven Secret〉</strong>
+                              </div>
+                              
+                              <div class="inform_desc">
+                                <span class="txt_name">움파룸파</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="sec_sub_panel">
+                  <div class="sub_panel_inner">
+                    <div class="sub_panel_title">
+                      <h4 class="txt_title">arte 랭킹 - 음악</h4>
+                    </div>
+
+                    <div class="sub_panel_conts">
+                      <div class="panel_sort_filter">
+                        <ul class="panel_filter_list">
+                          <li class="panel_filter_item">
+                            <span class="inp_wrap">
+                              <input type="radio" class="inp_rdo" name="rank_cate" id="rdo01" checked>
+                              <label for="rdo01" class="inp_label"><em class="txt">클래식</em></label>
+                            </span>
+                          </li>
+                          <li class="panel_filter_item">
+                            <span class="inp_wrap">
+                              <input type="radio" class="inp_rdo" name="rank_cate" id="rdo02">
+                              <label for="rdo02" class="inp_label"><em class="txt">가곡</em></label>
+                            </span>
+                          </li>
+                          <li class="panel_filter_item">
+                            <span class="inp_wrap">
+                              <input type="radio" class="inp_rdo" name="rank_cate" id="rdo03">
+                              <label for="rdo03" class="inp_label"><em class="txt">재즈</em></label>
+                            </span>
+                          </li>
+                          <li class="panel_filter_item">
+                            <span class="inp_wrap">
+                              <input type="radio" class="inp_rdo" name="rank_cate" id="rdo04">
+                              <label for="rdo04" class="inp_label"><em class="txt">국악</em></label>
+                            </span>
+                          </li>
+                          <li class="panel_filter_item">
+                            <span class="inp_wrap">
+                              <input type="radio" class="inp_rdo" name="rank_cate" id="rdo05">
+                              <label for="rdo05" class="inp_label"><em class="txt">대중 음악</em></label>
+                            </span>
+                          </li>
+                          <li class="panel_filter_item">
+                            <span class="inp_wrap">
+                              <input type="radio" class="inp_rdo" name="rank_cate" id="rdo06">
+                              <label for="rdo06" class="inp_label"><em class="txt">음반</em></label>
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="panel_cont_list list_ranking">
+
+                        <!-- 등록랭킹 없는 경우 .no_data 클래스추가 -->
+                        <div class="panel_cont_item no_data">
+                          <div class="inform_wrap">
+                            <div class="inform_desc">
+                              <span class="txt_name">등록된 랭킹이 없습니다.</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- // 등록랭킹 없는 경우 -->
+
+                        <div class="panel_cont_item">
+                          <a href="javascript:void(0);" class="link_panel_cont">
+                            <div class="rank_txt"><em class="txt">2</em></div>
+                            <div class="img_wrap"><img src="../src/image/@temp_thumb04.jpg" alt=""></div>
+                            <div class="inform_wrap">
+                              <div class="inform_title">
+                                <strong class="txt_title">〈지저스 크라이스트 수퍼스타〉</strong>
+                              </div>
+                              
+                              <div class="inform_desc">
+                                <span class="txt_date">2022.10.20~2023.01.01</span>
+                                <span class="txt_name">김동욱</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="panel_cont_item">
+                          <a href="javascript:void(0);" class="link_panel_cont">
+                            <div class="rank_txt"><em class="txt">3</em></div>
+                            <div class="img_wrap"><img src="../src/image/@temp_thumb01.jpg" alt=""></div>
+                            <div class="inform_wrap">
+                              <div class="inform_title">
+                                <strong class="txt_title">〈오페라의 유령〉 - 부산</strong>
+                              </div>
+                              
+                              <div class="inform_desc">
+                                <span class="txt_date">2022.10.20~2023.01.01</span>
+                                <span class="txt_name">김동욱</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="panel_cont_item">
+                          <a href="javascript:void(0);" class="link_panel_cont">
+                            <div class="rank_txt"><em class="txt">4</em></div>
+                            <div class="img_wrap"><img src="../src/image/@temp_thumb01.jpg" alt=""></div>
+                            <div class="inform_wrap">
+                              <div class="inform_title">
+                                <strong class="txt_title">〈오페라의 유령〉 - 부산 제목 두줄 말줄임 두줄 말줄임 두줄 말줄임 두줄 말줄임</strong>
+                              </div>
+                              
+                              <div class="inform_desc">
+                                <span class="txt_date">2022.10.20~2023.01.01</span>
+                                <span class="txt_name">움파룸파</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- // sec_sub_panel -->
+
+              <!-- arte_review_conts -->
+              <div class="arte_review_conts">
+                <div class="review_conts_inner">
+
+                  <div class="sort_area_wrap">
+                    <div class="sort_area">
+                      <div class="sort_result_txt">
+                        <strong class="txt">총 <em class="num">123</em>개의 리뷰가 있습니다</strong>
+                      </div>
+
+                      <div class="sort_search_wrap">
+                        <div class="sort_view_wrap">
+                          <div class="dropdown_menu">
+                            <button class="btn_dropdown"><span class="txt">최신순</span></button> <!-- 활성화시 .is-open -->
+                            <div class="dropdown_dep2">
+                              <ul class="dropdown_dep2_list">
+                                <li class="dropdown_dep2_item item-on"> <!-- 선택된 버튼 .item-on -->
+                                  <button class="btn_dropdown_dep2"><span class="txt">최신순</span></button>
+                                </li>
+
+                                <li class="dropdown_dep2_item">
+                                  <button class="btn_dropdown_dep2"><span class="txt">조회순</span></button>
+                                </li>
+
+                                <li class="dropdown_dep2_item">
+                                  <button class="btn_dropdown_dep2"><span class="txt">좋아요순</span></button>
+                                </li>
+
+                                <li class="dropdown_dep2_item">
+                                  <button class="btn_dropdown_dep2"><span class="txt">댓글순</span></button>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="detail_filter_btn">
+                          <button class="btn_detail_filter"> <!-- 활성화시 .is-open -->
+                            <span class="txt">상세옵션 <em class="state_txt">열기</em></span>
+                          </button> 
+                        </div>
+
+                        <div class="search_box">
+                          <input type="text" class="inp_search" placeholder="작품명, 리뷰명, 작성자명 등&nbsp; 태그를 입력해 주세요.">
+                          <button type="button" class="btn_search" aria-label="검색"></button>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="sort_detail_filter_wrap"> <!-- 활성화시 .is-open -->
+                      <div class="sort_detail_filter">
+                        <div class="sort_detail_filter_inner">
+                          
+                          <div class="detail_filter_header">
+                            <div class="detail_filter_header_item_hd">
+                              <div class="detail_filter_title">
+                                <strong class="txt_title">상세옵션</strong>
+                              </div>
+                              
+                              <div class="detail_filter_closed_btn">
+                                <button class="btn_closed"><span class="blind">상세옵션 닫기</span></button>
+                              </div>
+                            </div>
+
+                            <div class="detail_filter_header_item_util">
+                              <div class="detail_filter_reset_btn">
+                                <button class="btn_detail_filter_reset"><span class="txt">초기화</span></button>
+                              </div>
+
+                              <div class="detail_filter_search_btn">
+                                <button class="btn_search_txt"><span class="txt">검색하기</span></button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="detail_filter_conts">
+                            <div class="search_box_wrap">
+                              <div class="search_box">
+                                <input type="text" class="inp_search" placeholder="공연명, 출연진 등 태그를 입력해 주세요.">
+                              </div>
+                            </div>
+
+                            <ul class="filter_option_list">
+                              <li class="filter_option_item">
+                                <div class="filter_option_item_inner">
+                                  <div class="filter_option_title"><strong class="txt_title">전문가 리뷰</strong></div>
+                              
+                                  <div class="filter_option_conts">
+                                    <ul class="filter_option_item_list">
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="masterreview" id="chk01-01" data-chk="check-all">
+                                          <label for="chk01-01" class="inp_label"><em class="txt">전체</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="masterreview" id="chk01-02">
+                                          <label for="chk01-02" class="inp_label"><em class="txt">볼만한 공연</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="masterreview" id="chk01-03">
+                                          <label for="chk01-03" class="inp_label"><em class="txt">혼자 보기 아까운 공연</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="masterreview" id="chk01-04">
+                                          <label for="chk01-04" class="inp_label"><em class="txt">물개박수 절로 나오는 공연</em></label>
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </li>
+
+                              <li class="filter_option_item">
+                                <div class="filter_option_item_inner">
+                                  <div class="filter_option_title"><strong class="txt_title">회원 리뷰</strong></div>
+                              
+                                  <div class="filter_option_conts">
+                                    <ul class="filter_option_item_list">
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk02-01" data-chk="check-all">
+                                          <label for="chk02-01" class="inp_label"><em class="txt">전체</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk02-02">
+                                          <label for="chk02-02" class="inp_label"><em class="txt">강력추천</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk02-03">
+                                          <label for="chk02-03" class="inp_label"><em class="txt">생각보다 좋아요</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk02-04">
+                                          <label for="chk02-04" class="inp_label"><em class="txt">괜찮아요</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk02-05">
+                                          <label for="chk02-05" class="inp_label"><em class="txt">그냥 그렇네요</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk02-06">
+                                          <label for="chk02-06" class="inp_label"><em class="txt">시간 아까워요</em></label>
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </li>
+
+                              <li class="filter_option_item">
+                                <div class="filter_option_item_inner">
+                                  <div class="filter_option_title"><strong class="txt_title">장르</strong></div>
+                              
+                                  <div class="filter_option_conts">
+                                    <ul class="filter_option_item_list">
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk03-01" data-chk="check-all">
+                                          <label for="chk03-01" class="inp_label"><em class="txt">전체</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk03-02">
+                                          <label for="chk03-02" class="inp_label"><em class="txt">클래식</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk03-03">
+                                          <label for="chk03-03" class="inp_label"><em class="txt">국악</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk03-04">
+                                          <label for="chk03-04" class="inp_label"><em class="txt">가곡</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk03-05">
+                                          <label for="chk03-05" class="inp_label"><em class="txt">오페라</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk03-06">
+                                          <label for="chk03-06" class="inp_label"><em class="txt">재즈</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk03-07">
+                                          <label for="chk03-07" class="inp_label"><em class="txt">음반·LP</em></label>
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </li>
+
+                              <li class="filter_option_item">
+                                <div class="filter_option_item_inner">
+                                  <div class="filter_option_title"><strong class="txt_title">상태</strong></div>
+                              
+                                  <div class="filter_option_conts">
+                                    <ul class="filter_option_item_list">
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk04-01" data-chk="check-all">
+                                          <label for="chk04-01" class="inp_label"><em class="txt">전체</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk04-02">
+                                          <label for="chk04-02" class="inp_label"><em class="txt">예정</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk04-03">
+                                          <label for="chk04-03" class="inp_label"><em class="txt">진행중</em></label>
+                                        </span>
+                                      </li>
+                                      <li class="filter_option_item_li">
+                                        <span class="inp_wrap">
+                                          <input type="checkbox" class="inp_chk" name="memberreview" id="chk04-04">
+                                          <label for="chk04-04" class="inp_label"><em class="txt">종료</em></label>
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="search_tag_wrap">
+                      <div class="search_tag_result_txt">
+                        <strong class="txt">‘<em class="keyword">브로드웨이</em>’에 대한 검색 결과 총<em class="num">5</em>개</strong>
+                      </div>
+
+                      <div class="search_tag_list">
+                        <span class="label_tag_hashtag"><em class="txt">연극<button class="btn_del"><span class="blind">삭제</span></button></em></span>
+                        <span class="label_tag_hashtag"><em class="txt">복합<button class="btn_del"><span class="blind">삭제</span></button></em></span>
+                        <span class="label_tag_hashtag"><em class="txt">충청도<button class="btn_del"><span class="blind">삭제</span></button></em></span>
+                        <span class="label_tag_hashtag"><em class="txt">경상도<button class="btn_del"><span class="blind">삭제</span></button></em></span>
+                        <span class="label_tag_hashtag"><em class="txt">진행중<button class="btn_del"><span class="blind">삭제</span></button></em></span>
+                        <span class="label_tag_hashtag"><em class="txt">그럭저럭<button class="btn_del"><span class="blind">삭제</span></button></em></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="search_result_wrap">
+                    <!-- 검색결과 없을 시 -->
+                    <div class="search_result_no_data">
+                      <div class="search_result_msg">
+                        <span class="txt">검색결과가 없습니다.</span>
+                      </div>
+                    </div>
+                    <!-- // 검색결과 없을 시 -->
+
+                    <div class="search_result_list">
+                      <div class="search_result_item">
+                        <a href="javascript:void(0);" class="search_result_link">
+                          <div class="search_result_inform">
+                            <div class="inform_title">
+                              <div class="title_sub">
+                                <span class="label_tag_cate"><em class="txt">연극</em></span>
+                                <span class="sub_txt">아이, 여자 그리고 SEVEN</span>
+                              </div>
+                              <strong class="txt_title">슬픈사랑과 매력적인 무대연출</strong>
+                            </div>
+
+                            <div class="inform_desc">
+                              <span class="txt">더 감동적이었습니다.</span>
+                            </div>
+
+                            <div class="inform_etc">
+                              <div class="inform_etc_item">
+                                <span class="label_tag_onlytxt"><em class="txt">내 귀에 캔디</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="label_tag_bg"><em class="txt">arte</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="score_badge_grade g01"></span> <!-- 평점에따라 .g01 ~ .g05 클래스 추가 ex) 평점1 = .g01 / 평점2 = .g02 -->
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_liked"><span class="blind">좋아요</span></button>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_notice"><span class="blind">정보더보기</span></button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="search_result_thumb">
+                            <div class="img_wrap"><img src="../src/image/@result_thumb01.jpg" alt=""></div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="search_result_item">
+                        <a href="javascript:void(0);" class="search_result_link">
+                          <div class="search_result_inform">
+                            <div class="inform_title">
+                              <div class="title_sub">
+                                <span class="label_tag_cate"><em class="txt">뮤지컬</em></span>
+                                <span class="sub_txt">뮤지컬 ‘기생충’에 담긴 진짜 vs 가짜 바로크 음악</span>
+                              </div>
+                              <strong class="txt_title">바이올린 여제, 사라 장이 2022년 12월 내한공연을 갖는다. 3년 전 리사이틀 전국 공연을 매진시키며 독보적인 존재감을 보였던 사라 장은 이번에는 한국의 후배 연주가들과 함께 다양한 연주곡 협주를 선보인다. 사라 장이 이번 공연을 위해 선택한 바이올린 여제, 사라 장이 2022년 12월 내한공연을 갖는다.</strong>
+                            </div>
+
+                            <div class="inform_desc">
+                              <span class="txt">대략적인 스토리는 보고갔지만 실제로 보니까 더 감동적이었습니다. 드라큘라 역할의 테이님도 정말 멋지셨습니다. 역시 믿고 듣는 보이스 입니다 !! 그리고 개인적으로는 슬픈 로레인 역할을 하셨던 배우님의 순간 감정변화가 정말 인상적이었어요. 모든 배우 분들 한 분 한 분 다 진심을 다하시는 모습이 멋졌습니다. 대략적인 스토리는 보고갔지만 실제로 보니까 더 감동적이었습니다. 드라큘라 역할의 테이님도 정말 멋지셨습니다. 역시 믿고 듣는 보이스 입니다 !!</span>
+                            </div>
+
+                            <div class="inform_etc">
+                              <div class="inform_etc_item">
+                                <span class="label_tag_onlytxt"><em class="txt">내 귀에 캔디</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="label_tag_line"><em class="txt">회원</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="score_badge_grade g02"></span> <!-- 평점에따라 .g01 ~ .g05 클래스 추가 ex) 평점1 = .g01 / 평점2 = .g02 -->
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_liked"><span class="blind">좋아요</span></button>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_notice"><span class="blind">정보더보기</span></button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="search_result_thumb">
+                            <div class="img_wrap"><img src="../src/image/@result_thumb02.jpg" alt=""></div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="search_result_item">
+                        <a href="javascript:void(0);" class="search_result_link">
+                          <div class="search_result_inform">
+                            <div class="inform_title">
+                              <div class="title_sub">
+                                <span class="label_tag_cate"><em class="txt">뮤지컬</em></span>
+                                <span class="sub_txt">뮤지컬 ‘기생충’에 담긴 진짜 vs 가짜 바로크 음악</span>
+                              </div>
+                              <strong class="txt_title">바이올린 여제, 사라 장이 2022년 12월 내한공연을 갖는다. 3년 전 리사이틀 전국 공연을 매진시키며 독보적인 존재감을 보였던 사라 장은 이번에는 한국의 후배 연주가들과 함께 다양한 연주곡 협주를 선보인다. 사라 장이 이번 공연을 위해 선택한 바이올린 여제, 사라 장이 2022년 12월 내한공연을 갖는다.</strong>
+                            </div>
+
+                            <div class="inform_desc">
+                              <span class="txt">대략적인 스토리는 보고갔지만 실제로 보니까 더 감동적이었습니다. 드라큘라 역할의 테이님도 정말 멋지셨습니다. 역시 믿고 듣는 보이스 입니다 !! 그리고 개인적으로는 슬픈 로레인 역할을 하셨던 배우님의 순간 감정변화가 정말 인상적이었어요. 모든 배우 분들 한 분 한 분 다 진심을 다하시는 모습이 멋졌습니다. 대략적인 스토리는 보고갔지만 실제로 보니까 더 감동적이었습니다. 드라큘라 역할의 테이님도 정말 멋지셨습니다. 역시 믿고 듣는 보이스 입니다 !!</span>
+                            </div>
+
+                            <div class="inform_etc">
+                              <div class="inform_etc_item">
+                                <span class="label_tag_onlytxt"><em class="txt">내 귀에 캔디</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="label_tag_line"><em class="txt">회원</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="score_badge_grade g05"></span> <!-- 평점에따라 .g01 ~ .g05 클래스 추가 ex) 평점1 = .g01 / 평점2 = .g02 -->
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_liked"><span class="blind">좋아요</span></button>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_notice"><span class="blind">정보더보기</span></button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="search_result_thumb">
+                            <div class="img_wrap"><img src="../src/image/@result_thumb03.jpg" alt=""></div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- large item version : item_lg 클래스 추가-->
+                      <div class="search_result_item item_lg">
+                        <a href="javascript:void(0);" class="search_result_link">
+                          <div class="search_result_thumb">
+                            <div class="img_wrap"><img src="../src/image/@result_thumb01.jpg" alt=""></div>
+                            <span class="label_tag_cate"><em class="txt">연극</em></span>
+                          </div>
+
+                          <div class="search_result_inform">
+                            <div class="inform_title">
+                              <div class="title_sub">
+                                <span class="sub_txt">브로드웨이 42번가</span>
+                              </div>
+                              <strong class="txt_title">잔혹하지만 사랑할 수 밖에 없는 마성의 뮤지컬 '드라큘라'</strong>
+                            </div>
+
+                            <div class="inform_desc">
+                              <span class="txt">
+                                뮤지컬 '드라큘라'가 잔혹하지만 거부할 수 없는 유혹으로 찾아온다. 세상 어디서도 볼 수 없던 매혹적인 드라큘라의 로맨스를 무대에서 만난다.
+                                현재 샤롯데씨어터에서 뮤지컬 '드라큘라'가 공연 중이다. 초연의 김준수, 류정한, 조정은, 임혜영을 필두로 뉴캐스트로 전동석, 린지 등이 합류했다.
+                                강태을, 손준호, 이충주, 진태화, 이예은, 김수연 등 조연
+                              </span>
+                            </div>
+
+                            <div class="inform_etc">
+                              <div class="inform_etc_item">
+                                <span class="label_tag_onlytxt"><em class="txt">내 귀에 캔디</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="label_tag_bg"><em class="txt">arte</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="score_badge_grade g01"></span> <!-- 평점에따라 .g01 ~ .g05 클래스 추가 ex) 평점1 = .g01 / 평점2 = .g02 -->
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_liked"><span class="blind">좋아요</span></button>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_notice"><span class="blind">정보더보기</span></button>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- // large item version : item_lg 클래스 추가 -->
+
+                      <!-- no img thumb version -->
+                      <div class="search_result_item">
+                        <a href="javascript:void(0);" class="search_result_link">
+                          <div class="search_result_inform">
+                            <div class="inform_title">
+                              <div class="title_sub">
+                                <span class="label_tag_cate"><em class="txt">뮤지컬</em></span>
+                                <span class="sub_txt">뮤지컬 ‘기생충’에 담긴 진짜 vs 가짜 바로크 음악</span>
+                              </div>
+                              <strong class="txt_title">바이올린 여제, 사라 장이 2022년 12월 내한공연을 갖는다. 3년 전 리사이틀 전국 공연을 매진시키며 독보적인 존재감을 보였던 사라 장은 이번에는 한국의 후배 연주가들과 함께 다양한 연주곡 협주를 선보인다. 사라 장이 이번 공연을 위해 선택한 바이올린 여제, 사라 장이 2022년 12월 내한공연을 갖는다.</strong>
+                            </div>
+
+                            <div class="inform_desc">
+                              <span class="txt">대략적인 스토리는 보고갔지만 실제로 보니까 더 감동적이었습니다. 드라큘라 역할의 테이님도 정말 멋지셨습니다. 역시 믿고 듣는 보이스 입니다 !! 그리고 개인적으로는 슬픈 로레인 역할을 하셨던 배우님의 순간 감정변화가 정말 인상적이었어요. 모든 배우 분들 한 분 한 분 다 진심을 다하시는 모습이 멋졌습니다. 대략적인 스토리는 보고갔지만 실제로 보니까 더 감동적이었습니다. 드라큘라 역할의 테이님도 정말 멋지셨습니다. 역시 믿고 듣는 보이스 입니다 !!</span>
+                            </div>
+
+                            <div class="inform_etc">
+                              <div class="inform_etc_item">
+                                <span class="label_tag_onlytxt"><em class="txt">내 귀에 캔디</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="label_tag_line"><em class="txt">회원</em></span>
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <span class="score_badge_grade g03"></span> <!-- 평점에따라 .g01 ~ .g05 클래스 추가 ex) 평점1 = .g01 / 평점2 = .g02 -->
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_liked"><span class="blind">좋아요</span></button> <!-- 활성화시 .is-active -->
+                              </div>
+
+                              <div class="inform_etc_item">
+                                <button class="btn_notice"><span class="blind">정보더보기</span></button>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- // no img thumb version -->
+
+                    </div>
+
+                    <div class="page_control_area">
+                      <div class="pagenation">
+                        <a href="javascript:void(0);" class="btn_page_first"><span class="blind">첫페이지</span></a>
+                        <a href="javascript:void(0);" class="btn_page_prev"><span class="blind">이전페이지</span></a>
+                        <div class="page_num_list">
+                          <a href="javascript:void(0);" class="btn_page_num is-active"><em class="txt">1</em></a>
+                          <a href="javascript:void(0);" class="btn_page_num"><em class="txt">2</em></a>
+                          <a href="javascript:void(0);" class="btn_page_num"><em class="txt">3</em></a>
+                          <a href="javascript:void(0);" class="btn_page_num"><em class="txt">4</em></a>
+                          <a href="javascript:void(0);" class="btn_page_num"><em class="txt">5</em></a>
+                          <a href="javascript:void(0);" class="btn_page_num"><em class="txt">6</em></a>
+                          <a href="javascript:void(0);" class="btn_page_num"><em class="txt">7</em></a>
+                          <a href="javascript:void(0);" class="btn_page_num"><em class="txt">8</em></a>
+                          <a href="javascript:void(0);" class="btn_page_num"><em class="txt">9</em></a>
+                        </div>
+                        <a href="javascript:void(0);" class="btn_page_next"><span class="blind">다음페이지</span></a>
+                        <a href="javascript:void(0);" class="btn_page_last"><span class="blind">마지막페이지</span></a>
+                      </div>
+
+                      <div class="page_btn_wrap">
+                        <button class="btn_more"><span class="txt">더보기</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- // arte_review_conts -->
+
+            </div>
+          </section>
+          <!-- // sec_arte_review -->
+
+        </div>
+        <!-- // Section all -->
+
+      </div>
+    </div>
+    <!--// Container -->
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="footer_inner">
+        <div class="footer_top">
+          <div class="footer_nav">
+            <ul class="footer_nav_list">
+              <li class="footer_nav_item"><a href="javascript:void(0);" class="link_footer_nav"><span class="txt">한국경제신문</span></a></li>
+              <li class="footer_nav_item"><a href="javascript:void(0);" class="link_footer_nav"><span class="txt">제휴문의</span></a></li>
+              <li class="footer_nav_item"><a href="javascript:void(0);" class="link_footer_nav"><span class="txt">기사배열 방침</span></a></li>
+              <li class="footer_nav_item"><a href="javascript:void(0);" class="link_footer_nav"><span class="txt">이용약관</span></a></li> 
+              <li class="footer_nav_item"><a href="javascript:void(0);" class="link_footer_nav"><span class="txt">개인정보 처리방침</span></a></li> 
+              <li class="footer_nav_item"><a href="javascript:void(0);" class="link_footer_nav"><span class="txt">자주 묻는 질문(FAQ)</span></a></li> 
+            </ul>
+          </div>
+
+          <div class="footer_familysite">
+            <div class="dropdown_menu">
+              <button class="btn_dropdown"><span class="txt">한국경제 Family</span></button> <!-- 활성화시 .is-open -->
+              <div class="dropdown_dep2">
+                <ul class="dropdown_dep2_list">
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">한국경제신문·한경닷컴</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">한국경제TV</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">한국경제매거진</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">한경BP(출판)</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">한경아르떼필하모닉</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">한경아르떼TV</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">한경마켓인사이트</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">텐아시아</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">KED글로벌</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">블루밍비트</span></a></li>
+                  <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">생글생글</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_inform">
+          <div class="footer_inform_item_informtxt">
+            <div class="txt_wrap"><span class="txt">한국경제신문 서울시 중구 청파로 463 본사 13층</span></div>
+            <div class="txt_wrap"><span class="txt">기사배열 원칙 책임자   오상헌</span><span class="txt">청소년 보호 책임자   오상헌</span></div>
+          </div>
+
+          <div class="footer_inform_item_sns">
+            <ul class="footer_sns_list">
+              <li class="footer_sns_item"><a href="javascript:void(0);" class="link_sns_facebook"><span class="blind">페이스북</span></a></li>
+              <li class="footer_sns_item"><a href="javascript:void(0);" class="link_sns_instagram"><span class="blind">인스타그램</span></a></li>
+              <li class="footer_sns_item"><a href="javascript:void(0);" class="link_sns_twt"><span class="blind">트위터</span></a></li>
+              <li class="footer_sns_item"><a href="javascript:void(0);" class="link_sns_youtube"><span class="blind">유튜브</span></a></li>
+            </ul>
+          </div>
+
+          <div class="footer_inform_item_qr">
+            <ul class="footer_qr_list">
+              <li class="footer_qr_item">
+                <a  href="javascript:void(0);" class="link_qr_item">
+                  <div class="img_wrap img_qr"><img src="../src/image/img_qr_android.png" alt=""></div>
+                  <div class="img_wrap img_tit"><img src="../src/image/img_qr_tit_googleplay.svg" alt=""></div>
+                </a>
+              </li>
+
+              <li class="footer_qr_item">
+                <a  href="javascript:void(0);" class="link_qr_item">
+                  <div class="img_wrap img_qr"><img src="../src/image/img_qr_apple.png" alt=""></div>
+                  <div class="img_wrap img_tit"><img src="../src/image/img_qr_tit_appstore.svg" alt=""></div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer_btm">
+          <h2 class="footer_logo"><a href="javascript:void(0);" class="link_logo"><span class="blind">한경아르떼</span></a></h2>
+
+          <div class="footer_copyright">
+            <span class="txt">Ⓒ ARTE. ALL RIGHTS RESERVED</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--// Footer -->
+
+  </div>
+
+  <!-- Script -->
+  <script src="../src/js/libs/jquery.min.js"></script>
+  <script src="../src/js/libs/swiper.min.js"></script>
+  <script src="../src/js/ui.js"></script>
+  <!-- // Script -->
+
+</body>
+
+</html>
