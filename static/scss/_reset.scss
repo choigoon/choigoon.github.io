@@ -1,262 +1,60 @@
-/* basic-reset */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+/*-------------------------------------------------------------------
+	@Resets
+-------------------------------------------------------------------*/
+html, body {height: 100%; text-size-adjust:none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none;}
+::before,::after,
+html, body, div, ul, ol, dl, li, dt, dd, p, h1, h2, h3, h4, h5, h6, table, thead, tbody, tr, th, td, caption, address, article, aside,
+canvas, details, figure, figcaption, main, footer, header, menu, nav, section,
+button, select, textarea, input, form, fieldset, legend, label, a, span, strong, em, address, pre, code, dfn, small, i, b {margin:0; padding:0; border:0; list-style:none; font-style:normal; font-size:inherit; font-weight:inherit; font-family:inherit; color:inherit; box-sizing:inherit; -webkit-box-sizing:inherit; -moz-box-sizing:inherit; -o-box-sizing:inherit; -webkit-print-color-adjust:exact;}
+main, article, aside, canvas, details, figure, figcaption, footer, header, menu, nav, section {display:block;}
+body {word-break:normal; word-wrap:break-word; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box;}
+[hidden] {display:none;}
+fieldset, iframe {width:100%;}
+img, a, frame, iframe, fieldset {border:0;}
+a {text-decoration:none;}
+table {width:100%; border-spacing:0; border-collapse:collapse;}
+caption {height:1px; overflow:hidden;}
+legend {position:fixed; overflow: hidden; border: 0; margin:-1px; width: 1px; height: 1px; clip: rect(1px, 1px, 1px, 1px); -webkit-clip-path: inset(50%); /* clip-path: inset(50%); */}
+button {overflow:hidden; background-color:transparent; cursor:pointer;}
+button::-moz-focus-inner {border:0px; padding:0px;}
+input[type='checkbox'],input[type='radio'],select {appearance:none; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none;}
+textarea {resize:none;}
+select::-ms-expand {display:none;}
+input::-ms-clear,
+input::-ms-reveal {display:none; width:0; height:0;}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {display:none;}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {-webkit-appearance:none; margin:0;}
+input::-webkit-calendar-picker-indicator {-webkit-appearance:none;}
+.dv-android [tabindex='0']:focus,
+.dv-android a:focus,
+.dv-android button:focus,
+.dv-android input:focus,
+.dv-android textarea:focus,
+.dv-android select:focus {outline:0;}
+.dv-ios [tabindex='0'],
+.dv-ios a,
+.dv-ios button,
+.dv-ios input,
+.dv-ios textarea,
+.dv-ios select {-webkit-tap-highlight-color:transparent;}
+
+[hidden],hr {display: none}
+
+.blind {position: absolute;top: -999em;left: -999em;z-index: 0;width: 1px;height: 1px;overflow: hidden}
 
 html {
-  -webkit-text-size-adjust: 100%;
+  font-size: 10px;
 }
 
 body {
-  font-family: "Pretendard", "Roboto", Arial, Dotum, serif, Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  -webkit-text-size-adjust: none;
-  font-weight: 500;
-  line-height: 1.5;
-  font-size: 14px;
+  width: 100%;
   color: #000;
-  /*-webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);*/
-  word-break: break-word;
-  word-wrap: break-word;
+  font-family: "Noto Sans KR","sans-serif","Apple SD Gothic Neo","AppleGothic","Apple Gothic","-apple-system",sans-serif !important;
+  font-size: 1.4rem;
+	font-weight: 300;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
 }
-
-@media all and (max-width: 480px) {
-  body {
-    font-size: 11px;
-  }
-}
-
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-textarea,
-p,
-blockquote,
-th,
-td,
-input,
-select,
-textarea,
-button,
-figure,
-figcaption {
-  margin: 0;
-  padding: 0;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-summary {
-  display: list-item;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-}
-
-fieldset,
-img {
-  border: 0 none;
-  vertical-align: middle;
-}
-
-dl,
-ul,
-ol,
-menu,
-li {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-em {
-  font-style: normal;
-}
-
-b,
-strong {
-  font-weight: 700;
-}
-
-img {
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-  vertical-align: middle;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-textarea {
-  overflow: auto;
-  -webkit-appearance: none;
-  resize: vertical;
-  font-size: 100%;
-}
-
-input,
-select {
-  -webkit-appearance: none;
-  font-family: inherit;
-  border-radius: 0;
-  font-size: 100%;
-  outline: none;
-}
-
-button {
-  font-family: inherit;
-  font-size: 100%;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  color: inherit;
-  font-weight: inherit;
-}
-
-button[disabled],
-input[disabled] {
-  cursor: default;
-}
-
-caption {
-  display: none;
-}
-
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-var {
-  font-style: normal;;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-input[type='text'],
-input[type='password'],
-input[type='submit'],
-input[type='search'],
-input[type='number'],
-input[type='tel'],
-input[type='email'] {
-  -webkit-appearance: none;
-}
-
-input:checked[type='checkbox'] {
-  background-color: #666;
-  -webkit-appearance: checkbox;
-}
-
-input:checked[type='checkbox'] {
-  -webkit-appearance: checkbox;
-}
-
-input[type="search"] {
-  -webkit-appearance: textfield;
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-button,
-input {
-  overflow: visible;
-}
-
-button,
-[type='button'],
-[type='submit'],
-[type='reset'],
-[type='file'] {
-  -webkit-appearance: button;
-  border-radius: 0;
-  cursor: pointer;
-}
-
-button {
-  font-family: inherit;
-  font-size: 100%;
-}
-
-input,
-select,
-textarea,
-button,
-pre {
-  font-family: "Pretendard", "Roboto", Arial, Dotum, serif;
-}
-
-input:focus,
-textarea:focus {
-  outline: none;
-}
-
-::placeholder {
-  color: #eee;
-  font-weight: 400;
-  font-size: inherit
-}
-
-::selection {
-  background-color: rgba($color: #ECA323, $alpha: .85);
-  color: #fff;
-}
-
-input[type="checkbox"],
-input[type="radio"]{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
-
-#accessibility, .blind { overflow: hidden; position: absolute; display: inline-block; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; white-space: nowrap; clip: rect(0, 0, 0, 0); z-index: -1; }
