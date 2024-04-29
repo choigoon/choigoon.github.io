@@ -1,53 +1,96 @@
 @font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 100;
-  src: url(../fonts/NotoSansKR-Thin.woff2) format('woff2'),
-    url(../fonts/NotoSansKR-Thin.woff) format('woff'),
-    url(../fonts/NotoSansKR-Thin.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/NotoSansKR-Light.woff2) format('woff2'),
-    url(../fonts/NotoSansKR-Light.woff) format('woff'),
-    url(../fonts/NotoSansKR-Light.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/NotoSansKR-Regular.woff2) format('woff2'),
-    url(../fonts/NotoSansKR-Regular.woff) format('woff'),
-    url(../fonts/NotoSansKR-Regular.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/NotoSansKR-Medium.woff2) format('woff2'),
-    url(../fonts/NotoSansKR-Medium.woff) format('woff'),
-    url(../fonts/NotoSansKR-Medium.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
+  font-family: 'Pretendard';
   font-weight: 700;
-  src: url(../fonts/NotoSansKR-Bold.woff2) format('woff2'),
-    url(../fonts/NotoSansKR-Bold.woff) format('woff'),
-    url(../fonts/NotoSansKR-Bold.otf) format('opentype');
+  font-display: swap;
+  src: local('Pretendard Bold'),
+    url('../fonts/Pretendard-Bold.subset.woff2') format('woff2'),
+    url('../fonts/Pretendard-Bold.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Noto Sans KR';
+  font-family: 'Pretendard';
+  font-weight: 600;
+  font-display: swap;
+  src: local('Pretendard SemiBold'),
+    url('../fonts/Pretendard-SemiBold.subset.woff2') format('woff2'),
+    url('../fonts/Pretendard-SemiBold.subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 500;
+  font-display: swap;
+  src: local('Pretendard Medium'),
+    url('../fonts/Pretendard-Medium.subset.woff2') format('woff2'),
+    url('../fonts/Pretendard-Medium.subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pretendard Regular'),
+    url('../fonts/Pretendard-Regular.subset.woff2') format('woff2'),
+    url('../fonts/Pretendard-Regular.subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Faktum';
+  font-weight: 500;
+  font-display: swap;
+  src: local('Pretendard SemiBold'),
+    url('../fonts/Faktum-Medium.woff2') format('woff2'),
+    url('../fonts/Faktum-Medium.woff') format('woff');
   font-style: normal;
-  font-weight: 900;
-  src: url(../fonts/NotoSansKR-Black.woff2) format('woff2'),
-    url(../fonts/NotoSansKR-Black.woff) format('woff'),
-    url(../fonts/NotoSansKR-Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Faktum';
+  font-weight: 300;
+  font-display: swap;
+  src: local('Faktum'),
+    url('../fonts/Faktum-LightItalic.woff2') format('woff2'),
+    url('../fonts/Faktum-LightItalic.woff') format('woff');
+  font-style: italic;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Faktum';
+  font-style: normal;
+  font-display: swap;
+  src: local('Faktum'),
+    url('../fonts/Faktum-Regular.woff2') format('woff2'),
+    url('../fonts/Faktum-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Faktum';
+  font-weight: 300;
+  font-display: swap;
+  src: local('Faktum'),
+    url('../fonts/Faktum-Light.woff2') format('woff2'),
+    url('../fonts/Faktum-Light.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  font-weight: normal;
+  font-display: swap;
+  src: local('Faktum'),
+    url('../fonts/PPEditorialNew-Regular.woff2') format('woff2'),
+    url('../fonts/PPEditorialNew-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  font-weight: normal;
+  font-display: swap;
+  src: local('PP Editorial New'),
+    url('../fonts/PPEditorialNew-Italic.woff2') format('woff2'),
+    url('../fonts/PPEditorialNew-Italic.woff') format('woff');
+  font-style: italic;
 }
