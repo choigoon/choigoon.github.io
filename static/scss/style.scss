@@ -805,6 +805,7 @@
     width: 100%;
     max-height: 100vh;
     min-height: 100vh;
+    overflow-x: hidden;
     overflow-y: auto;
     background-color: $bg-white;
     z-index: 7;

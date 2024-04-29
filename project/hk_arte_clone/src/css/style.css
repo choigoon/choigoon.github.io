@@ -1018,6 +1018,7 @@ input[type=radio] {
   width: 100%;
   max-height: 100vh;
   min-height: 100vh;
+  overflow-x: hidden;
   overflow-y: auto;
   background-color: #f5f3ec;
   z-index: 7;
