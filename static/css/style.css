@@ -127,8 +127,8 @@
 
 .self__study__list {
   display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
+  gap: 5px;
 }
 .self__study__list .img__wrap {
   display: block;
@@ -172,6 +172,13 @@
 .self__study__link {
   display: block;
   padding: 10px;
+  height: 100%;
+}
+
+.self__study__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -223,6 +230,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .self__study__list {
+    flex-direction: column;
+  }
   .self__study__li {
     width: 100%;
   }
