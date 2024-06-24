@@ -158,8 +158,8 @@ $primary-col : #ff4248;
 .self__study {
   &__list {
     display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
+    gap: 5px;
 
     .img__wrap {
       display: block;
@@ -213,6 +213,13 @@ $primary-col : #ff4248;
   &__link {
     display: block;
     padding: 10px;
+    height: 100%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 }
 
@@ -285,6 +292,9 @@ $primary-col : #ff4248;
   }
 
   .self__study {
+    &__list {
+    }
+
     &__li {
       width: 50%;
     }
@@ -293,6 +303,10 @@ $primary-col : #ff4248;
 
 @media screen and (max-width: 480px) {
   .self__study {
+    &__list {
+      flex-direction: column;
+    }
+
     &__li {
       width: 100%;
     }
