@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>accessibility_popup</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script type="text/javascript" src="../static/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../static/js/ui.common.js"></script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#gnb">주메뉴바로가기</a>
+        <a href="#container">본문바로가기</a>
+    </div>
+
+    <div class="wrapper">
+        <!-- header -->
+        <header id="header" class="header">
+            <div class="header__top">
+                <div class="header__inner">
+                    <div class="header__util">
+                        <ul class="header__util__list">
+                            <li class="header__util__li"><a href="javascript:void(0);" class="header__util__item"><span class="txt">이용가이드</span></a></li>
+                            <li class="header__util__li"><a href="javascript:void(0);" class="header__util__item"><span class="txt">사이트맵</span></a></li>
+                            <li class="header__util__li">
+                                <div class="header__util__item">
+                                    <div class="screen__size">
+                                        <span class="txt">화면크기</span>
+                                        <span class="screen__size-wrap">
+                                            <button type="button" class="btn btn__minus"><span class="blind">크기 축소</span></button>
+                                            <span class="size__detail__txt">100%</span>
+                                            <button type="button" class="btn btn__plus"><span class="blind">크기 확대</span></button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__btm">
+                <div class="header__inner">
+                    <div class="header-menu">
+                        <div class="logo-wrap">
+                            <h1 class="logo">
+                                <a href="javascript:void(0);" class="logo__link"><span class="logo__txt">THIS IS LOGO</span></a>
+                            </h1>
+                        </div>
+    
+                        <nav id="gnb" class="gnb-wrap">
+                            <button type="button" class="btn btn__gnb__toggle"><span class="blind">메뉴열기</span></button>
+
+                            <ul class="gnb--depth1">
+                                <li class="gnb--depth1__li">
+                                    <a href="javascript:void(0);" class="gnb__link">GNB MENU01</a>
+                                </li>
+                                <li class="gnb--depth1__li">
+                                    <a href="javascript:void(0);" class="gnb__link">GNB MENU02</a>
+                                </li>
+                                <li class="gnb--depth1__li">
+                                    <a href="javascript:void(0);" class="gnb__link">GNB MENU03</a>
+                                </li>
+                                <li class="gnb--depth1__li">
+                                    <a href="javascript:void(0);" class="gnb__link">GNB MENU04</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="header__user">
+                        <div class="user-menu-wrap">
+                            <ul class="user-menu__list">
+                                <li class="user-menu__li"><a href="javascript:void(0);" class="user-menu__link">마이 페이지</a></li>
+                                <li class="user-menu__li"><a href="javascript:void(0);" class="user-menu__link"><span class="user__txt">ㅁㅁㅁ님</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- // header -->
+
+        <!-- Contents -->
+        <main id="container" class="container">
+            <div class="contents">
+                <div class="contents__head">
+                    <div class="contents__inner">
+                        <div class="page__title">
+                            <h2 class="title">PAGE title</h2>
+                        </div>
+
+                        <div class="page__location">
+                            <span class="lacation">depth1</span>
+                            <span class="lacation">depth2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contents__body">
+                    <div class="contents__inner">
+                        <div class="view__class">
+                            <div class="view__class__item view__class__side">
+                                <div class="view__class__info">
+                                    <div class="view__class__info__title">
+                                        <h3 class="title">content info title Area content info title Area content info title Area content info title Area</h3>
+                                    </div>
+                                    
+                                    <div class="view__class__info__desc">
+                                        <ul class="info__desc__list">
+                                            <li class="info__desc__li">
+                                                <strong class="title">name11</strong>
+                                                <span class="cont">blah blah</span>
+                                            </li>
+                                            <li class="info__desc__li">
+                                                <strong class="title">name22</strong>
+                                                <span class="cont">blah blah</span>
+                                            </li>
+                                            <li class="info__desc__li">
+                                                <strong class="title">name33</strong>
+                                                <span class="cont">blah blah</span>
+                                            </li>
+                                        </ul>
+
+                                        <div class="info__desc__date">
+                                            <span class="title">recent date</span><span class="cont">2024.00.00 - 2024.00.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="view__class__info__toggle">
+                                        <button type="button" class="btn btn__view__info">강좌목차 <span class="toggle__txt">펼치기</span></button>
+                                    </div>
+                                </div>
+
+                                <div class="view__class__info__chapter">
+                                    <ul class="info__chapter__list">
+                                        <li class="info__chapter__li">
+                                            <div class="info__chapter__title"><span class="title">01. chapter title</span></div>
+                                            <div class="info__chapter__dep2">
+                                                <ul class="info__chapter__dep2__list">
+                                                    <li class="info__chapter__dep2__li">
+                                                        <a href="" class="info__chapter__dep2__link">01-1. chapter txt txt txt</a>
+                                                    </li>
+                                                    <li class="info__chapter__dep2__li">
+                                                        <a href="" class="info__chapter__dep2__link">01-2. chapter txt txt txt</a>
+                                                    </li>
+                                                    <li class="info__chapter__dep2__li">
+                                                        <a href="" class="info__chapter__dep2__link">01-3. chapter txt txt txt</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="info__chapter__li">
+                                            <div class="info__chapter__title"><span class="title">02. chapter title</span></div>
+                                            <div class="info__chapter__dep2">
+                                                <ul class="info__chapter__dep2__list">
+                                                    <li class="info__chapter__dep2__li">
+                                                        <a href="" class="info__chapter__dep2__link">02-1. chapter txt txt txt</a>
+                                                    </li>
+                                                    <li class="info__chapter__dep2__li">
+                                                        <a href="" class="info__chapter__dep2__link">02-2. chapter txt txt txt</a>
+                                                    </li>
+                                                    <li class="info__chapter__dep2__li">
+                                                        <a href="" class="info__chapter__dep2__link">02-3. chapter txt txt txt</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="info__chapter__li">
+                                            <div class="info__chapter__title"><span class="title">03. chapter title</span></div>
+                                            <div class="info__chapter__dep2">
+                                                <ul class="info__chapter__dep2__list">
+                                                    <li class="info__chapter__dep2__li">
+                                                        <a href="" class="info__chapter__dep2__link">03-1. chapter txt txt txt</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="view__class__item view__class__comp">
+                                <div class="view__class__comp__head">
+                                    <div class="view__class__comp__head__title">
+                                        <h4 class="title">comp head title</h4>
+                                    </div>
+                                </div>
+
+                                <div class="view__class__comp__body">
+                                    <div class="view__class__type type__document">
+                                        <div class="type__item__box"></div>
+                                        <div class="view__class__inform">
+                                            <span class="title">document file name.pdf</span>
+                                            <button type="button" class="btn btn__file"><span class="blind">파일 다운로드</span></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="view__class__type__btn-wrap">
+                                        <button type="button" class="btn btn__class__pass" onclick="popup.open('popupMedium', this)"><span class="txt">This Click POPUP OPEN!</span></button>
+
+                                        <div class="util__btn-wrap">
+                                            <button type="button" class="btn"><span class="txt">sm BTN01</span></button>
+                                            <button type="button" class="btn"><span class="txt">sm BTN02</span></button>
+                                            <button type="button" class="btn"><span class="txt">sm BTN03</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- // Contents -->
+
+        <!-- footer -->
+        <footer id="footer" class="footer">
+            <div class="footer__top">
+                <div class="footer__inner">
+                    <div class="footer-menu">
+                        <ul class="footer-menu__list">
+                            <li class="footer-menu__li"><a href="javascript:void(0);" class="footer-menu__link">개인정보처리방침</a></li>
+                            <li class="footer-menu__li"><a href="javascript:void(0);" class="footer-menu__link">이용약관</a></li>
+                            <li class="footer-menu__li"><a href="javascript:void(0);" class="footer-menu__link">이메일무단수집거부</a></li>
+                            <li class="footer-menu__li"><a href="javascript:void(0);" class="footer-menu__link">저작권정책</a></li>
+                            <li class="footer-menu__li"><a href="javascript:void(0);" class="footer-menu__link">원본대조</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__btm">
+                <div class="footer__inner">
+                    <div class="logo-wrap">
+                        <h1 class="logo">
+                            <a href="javascript:void(0);" class="logo__link"><span class="logo__txt">THIS IS 로고</span></a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- // footer -->
+
+        <!-- popup medium -->
+        <div id="popupMedium" class="popup-wrap" data-popup="content" aria-modal="true" aria-labelledby="popupTitle1" role="dialog" hidden>
+            <div class="popup popup--default">
+                <div class="popup__inner">
+                    <div class="popup-header">
+                        <h2 id="popupTitle1" class="popup__title">popup title</h2>
+                    </div>
+                    <div class="popup-body">
+                        <div class="tbl-group">
+                            <div class="tbl tbl--default">
+                                <table>
+                                    <caption>
+                                        <p>이 표는 제목, 내용으로 구성되었습니다.</p>
+                                    </caption>
+                                    <colgroup>
+                                        <col style="width:25%">
+                                        <col style="width:auto">
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row"><label for="form01">제목</label></th>
+                                            <td>
+                                                <div class="form__box">
+                                                    <input type="text" name="" id="form01" value="" placeholder="제목을 입력해주세요" class="form__input full">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><label for="form02">내용</label></th>
+                                            <td>
+                                                <div class="form__box">
+                                                    <input type="text" name="" id="form02" value="" placeholder="내용을 입력해주세요" class="form__input full">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><label for="form03">제목2</label></th>
+                                            <td>
+                                                <div class="form__box">
+                                                    <input type="text" name="" id="form03" value="" placeholder="제목을 입력해주세요" class="form__input full">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><label for="form04">내용2</label></th>
+                                            <td>
+                                                <div class="form__box">
+                                                    <input type="text" name="" id="form04" value="" placeholder="내용을 입력해주세요" class="form__input full">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="btn__area">
+                            <button type="button" class="btn btn__primary" aria-controls="popupAlert" onclick="popup.open('popupAlert', this)">POPUP in POPUP OPEN</button>
+                            <button type="button" class="btn" onclick="popup.close('popupMedium')">취소</button>
+                            <button type="button" class="btn" onclick="popup.close('popupMedium')">저장</button>    
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="popup-close" aria-controls="popupMedium" onclick="popup.close('popupMedium')">
+                    <span class="blind">팝업 닫기</span>
+                </button>
+            </div>
+        </div>
+        <!-- // popup medium -->
+
+        <!-- popup alert -->
+        <div id="popupAlert" class="popup-wrap" data-popup="alert" aria-modal="true" role="alertdialog" hidden>
+            <div class="popup popup--alert">
+                <div class="popup__inner">
+                    <div class="popup-body">
+                        <p class="alert__text">alert MSG!</p>
+                        <div class="btn__area">
+                            <button type="button" class="btn btn__primary" onclick="popup.close('popupAlert')">확인</button>
+                            <button type="button" class="btn" onclick="popup.close('popupAlert')">취소</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // popup alert -->
+
+    </div>
+</body>
+</html>
