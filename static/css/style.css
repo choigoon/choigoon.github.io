@@ -135,6 +135,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  flex: none;
 }
 .self__study__list .img__wrap::before {
   content: "";
@@ -151,6 +152,7 @@
   height: auto;
 }
 .self__study__list .txt__wrap {
+  flex: 1;
   margin-top: 10px;
   padding: 10px 0;
   text-align: center;
