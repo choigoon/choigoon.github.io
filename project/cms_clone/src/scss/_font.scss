@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Noto Sans Kr"),local("Noto Sans Kr");
+  src: url('../font/NotoSansCJKkr-DemiLight.woff') format("woff2"),
+  url('../font/NotoSansCJKkr-DemiLight.woff2') format("woff"),
+  url('../font/NotoSansCJKkr-DemiLight.otf') format("opentype");
+  text-rendering:optimizeLegibility
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Noto Sans Kr"),local("Noto Sans Kr");
+    src: url('../font/NotoSansKR-Regular.woff2') format("woff2"),
+    url('../font/NotoSansKR-Regular.woff') format("woff"),
+    url('../font/NotoSansKR-Regular.otf') format("opentype");
+    text-rendering:optimizeLegibility
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Noto Sans Kr"),local("Noto Sans Kr");
+    src: url('../font/NotoSansKR-Medium.woff2') format("woff2"),
+    url('../font/NotoSansKR-Medium.woff') format("woff"),
+    url('../font/NotoSansKR-Medium.otf') format("opentype");
+    text-rendering:optimizeLegibility
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Noto Sans Kr"),local("Noto Sans Kr");
+    src: url('../font/NotoSansKR-Bold.woff2') format("woff2"),
+    url('../font/NotoSansKR-Bold.woff') format("woff"),
+    url('../font/NotoSansKR-Bold.otf') format("opentype");
+    text-rendering:optimizeLegibility
+}

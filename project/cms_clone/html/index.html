@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <title>CMS CLONE</title>
+  <link rel="stylesheet" type="text/css" href="../src/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/style.css">
+</head>
+
+<body>
+  <!-- Accessibility SKIP -->
+  <ul id="skip__menu" class="skip__menu">
+    <li class="skip__menu__li"><a  class="skip__menu__link" href="#container">본문 바로가기</a></li>
+    <li class="skip__menu__li"><a  class="skip__menu__link" href="#lnb">메뉴 바로가기</a></li>
+  </ul>
+  <!-- // Accessibility SKIP -->
+
+  <div id="wrap" class="wrap">
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="header_inner">
+        <div class="header_dep1">
+          <h1 class="header_logo">
+            <a href="javascript:void(0);" class="header_logo_link"><span class="blind">금융결제원 logo</span></a>
+          </h1>
+
+          <!-- lnb -->
+          <div class="header_lnb">
+            <div class="header_lnb_inner">
+              <ul class="header_lnb_list" id="lnb">
+                <li class="header_lnb_li">
+                  <a href="javascript:void(0);" class="header_lnb_link"><span class="txt">서비스 안내</span></a>
+
+                  <div class="header_lnb_dep2">
+                    <ul class="header_lnb_dep2_list">
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">CMS 안내</span></a>
+
+                        <div class="header_lnb_dep3">
+                          <ul class="header_lnb_dep3_list">
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">CMS 알아보기</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">비용 알아보기</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">부가 서비스</span></a></li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">CMS 체험</span></a>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">이벤트</span></a>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">협력사소개</span></a>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">기타 서비스</span></a>
+
+                        <div class="header_lnb_dep3">
+                          <ul class="header_lnb_dep3_list">
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">빌링원필러스</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">트러스빌</span></a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="header_lnb_li">
+                  <a href="javascript:void(0);" class="header_lnb_link"><span class="txt">서비스 신청</span></a>
+
+                  <div class="header_lnb_dep2">
+                    <ul class="header_lnb_dep2_list">
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">온라인신청</span></a>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">상담 신청</span></a>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">신청 방법</span></a>
+                        
+                        <div class="header_lnb_dep3">
+                          <ul class="header_lnb_dep3_list">
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">신규 신청</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">CMS 현금영수증</span></a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="header_lnb_li">
+                  <a href="javascript:void(0);" class="header_lnb_link"><span class="txt">서비스 지원</span></a>
+
+                  <div class="header_lnb_dep2">
+                    <ul class="header_lnb_dep2_list">
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">공지사항</span></a>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">FAQ</span></a>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">자료실</span></a>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">CMS Pro</span></a>
+                        
+                        <div class="header_lnb_dep3">
+                          <ul class="header_lnb_dep3_list">
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">송수신 프로그램이란</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">CMS Pro 설치</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">파일송수신절차</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">CMS Pro Tip</span></a></li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">민원접수</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="header_lnb_li">
+                  <a href="javascript:void(0);" class="header_lnb_link"><span class="txt">마이페이지</span></a>
+
+                  <div class="header_lnb_dep2">
+                    <ul class="header_lnb_dep2_list">
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">이용기관</span></a>
+                        
+                        <div class="header_lnb_dep3">
+                          <ul class="header_lnb_dep3_list">
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">이용기관 마이페이지</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">기본정보관리</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">승인현황조회</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">실시간 계좌조회/등록 내역 조회</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">센터 확인 불능내역 조회</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">이용기관 정보 변경 신청</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">테스트/서비스 실시 신청</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">요금조회</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">서비스 이용현황</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">보증보험 가입금액 조회</span></a></li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">협력사</span></a>
+                        
+                        <div class="header_lnb_dep3">
+                          <ul class="header_lnb_dep3_list">
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">이용기관 정보 조회</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">이용기관 정보 변경</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">협력사 영업장려금</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">협력사 정보 관리</span></a></li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="header_lnb_dep2_li">
+                        <a href="javascript:void(0);" class="header_lnb_dep2_link"><span class="txt">참가기관</span></a>
+                        
+                        <div class="header_lnb_dep3">
+                          <ul class="header_lnb_dep3_list">
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">회원정보수정</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">공지사항</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">자료실</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">실무책임자연락처</span></a></li>
+                            <li class="header_lnb_dep3_li"><a href="javascript:void(0);" class="header_lnb_dep3_link"><span class="txt">장애대응</span></a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- // lnb -->
+
+          <!-- util -->
+          <div class="header_util">
+            <div class="header_util_item_login">
+              <button class="btn_util_login"><span class="txt">로그인</span></button>
+            </div>
+
+            <div class="header_util_item_gnb">
+              <button class="btn_util_gnb"><span class="blind">전체메뉴</span></button>
+
+              <div class="gnb">
+                <div class="gnb_inner">
+                  <ul class="gnb_list">
+                    <li class="gnb_li li_guide">
+                      <div class="gnb_title"><button class="btn_gnb_title"><span class="txt">서비스 안내</span></button></div>
+
+                      <div class="gnb_dep2">
+                        <ul class="gnb_dep2_list">
+                          <li class="gnb_dep2_li">
+                            <button class="gnb_dep2_tit"><span class="txt">CMS 안내</span><span class="blind">목록 열기</span></button>
+  
+                            <div class="gnb_dep3">
+                              <ul class="gnb_dep3_list">
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">CMS 알아보기</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">비용 알아보기</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">부가 서비스</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">CMS 체험</span></a>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">이벤트</span></a>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">협력사 소개</span></a>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <button class="gnb_dep2_tit"><span class="txt">기타 서비스</span><span class="blind">목록 열기</span></button>
+
+                            <div class="gnb_dep3">
+                              <ul class="gnb_dep3_list">
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">빌링원플러스</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">트러스빌</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li class="gnb_li li_apply">
+                      <div class="gnb_title"><button class="btn_gnb_title"><span class="txt">서비스 신청</span></button></div>
+
+                      <div class="gnb_dep2">
+                        <ul class="gnb_dep2_list">
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">온라인 신청</span></a>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">상담 신청</span></a>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <button class="gnb_dep2_tit"><span class="txt">신청 방법</span><span class="blind">목록 열기</span></button>
+
+                            <div class="gnb_dep3">
+                              <ul class="gnb_dep3_list">
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">신규 신청</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">CMS 현금영수증</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li class="gnb_li li_support">
+                      <div class="gnb_title"><button class="btn_gnb_title"><span class="txt">서비스 지원</span></button></div>
+
+                      <div class="gnb_dep2">
+                        <ul class="gnb_dep2_list">
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">공지사항</span></a>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">FAQ</span></a>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">자료실</span></a>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <button class="gnb_dep2_tit"><span class="txt">CMS Pro</span><span class="blind">목록 열기</span></button>
+
+                            <div class="gnb_dep3">
+                              <ul class="gnb_dep3_list">
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">송수신 프로그램이란</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">CMS Pro 설치</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">파일송수신절차</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <a href="javascript:void(0);" class="gnb_dep2_link"><span class="txt">민원접수</span></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li class="gnb_li li_mypage">
+                      <div class="gnb_title"><button class="btn_gnb_title"><span class="txt">마이페이지</span></button></div>
+
+                      <div class="gnb_dep2">
+                        <ul class="gnb_dep2_list">
+                          <li class="gnb_dep2_li">
+                            <button class="gnb_dep2_tit"><span class="txt">이용기관</span><span class="blind">목록 열기</span></button>
+
+                            <div class="gnb_dep3">
+                              <ul class="gnb_dep3_list">
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">이용기관 마이페이지</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">기본정보관리</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">승인현황조회</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">실시간 계좌조회/등록 내역 조회</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">센터 확인 불능내역 조회</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">이용기관 정보 변경 신청</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">테스트/서비스 실시 신청</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">요금조회</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">서비스 이용현황</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">보증보험 가입금액 조회</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <button class="gnb_dep2_tit"><span class="txt">협력사</span><span class="blind">목록 열기</span></button>
+
+                            <div class="gnb_dep3">
+                              <ul class="gnb_dep3_list">
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">이용기관 정보 조회</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">이용기관 정보 변경</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">협력사 영업장려금</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">협력사 정보 관리</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+
+                          <li class="gnb_dep2_li">
+                            <button class="gnb_dep2_tit"><span class="txt">참가기관</span><span class="blind">목록 열기</span></button>
+
+                            <div class="gnb_dep3">
+                              <ul class="gnb_dep3_list">
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">회원정보수정</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">공지사항</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">자료실</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">실무책임자연락처</span></a></li>
+                                <li class="gnb_dep3_li"><a href="javascript:void(0);" class="gnb_dep3_link"><span class="txt">장애대응</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <button class="btn_util_login"><span class="txt">로그인</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- // util -->
+
+        </div>
+      </div>
+    </header>
+    <!--// Header -->
+
+    <!-- Aside -->
+    <aside id="sidenav" class="sidenav">
+      <div class="sidenav_inner">
+        <h2 class="blind">즐겨찾는 메뉴</h2>
+        <ul class="sidenav_list">
+          <li class="sidenav_li li_online"><a href="javascript:void(0);" class="sidenav_link"><span class="txt">온라인신청</span></a></li>
+          <li class="sidenav_li li_board"><a href="javascript:void(0);" class="sidenav_link"><span class="txt">자료실</span></a></li>
+          <li class="sidenav_li li_cmspro"><a href="javascript:void(0);" class="sidenav_link"><span class="txt">CMSPro 설치</span></a></li>
+          <li class="sidenav_li li_mypage"><a href="javascript:void(0);" class="sidenav_link"><span class="txt">마이페이지</span></a></li>
+          <li class="sidenav_li li_chat"><a href="javascript:void(0);" class="sidenav_link"><span class="txt">Chat</span></a></li>
+          <li class="sidenav_li li_pagetop"><button class="btn_pagetop"><span class="blind">page TOP</span></button></li>
+        </ul>
+      </div>
+    </aside>
+    <!-- // Aside -->
+
+    <!-- Container -->
+    <div id="container" class="container">
+      <div id="content" class="content">
+
+        <!-- Section all -->
+        <div class="section_wrap">
+
+          <!-- section kv_swiper -->
+          <section class="section sec_kv">
+            <div class="section_inner">
+              <div class="sec_row">
+                <div class="sec_col col_kv">
+                  <div class="sec_item item_kvbanner">
+                    <h2 class="blind">이벤트 안내 슬라이드</h2>
+                    <div class="swiper swiper_kvbanner">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="swiper_kvbanner_wrap event01">
+                            <a href="javascript:void(0);" class="swiper_kvbanner_link">
+                              <div class="swiper_kvbanner_img_wrap">
+                                <img src="../src/image/img_kv_event01.png" alt="" class="img">
+                                <span class="blind">이미지01 대체텍스트</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="swiper_kvbanner_wrap event02">
+                            <a href="javascript:void(0);" class="swiper_kvbanner_link">
+                              <div class="swiper_kvbanner_img_wrap">
+                                <img src="../src/image/img_kv_event02.png" alt="" class="img">
+                                <span class="blind">이미지02 대체텍스트</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="swiper_kvbanner_wrap event03">
+                            <a href="javascript:void(0);" class="swiper_kvbanner_link">
+                              <div class="swiper_kvbanner_img_wrap">
+                                <img src="../src/image/img_kv_event03.png" alt="" class="img">
+                                <span class="blind">이미지03 대체텍스트</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper_ctrler">
+                        <div class="swiper_ctrler_inner">
+                          <div class="swiper-pagination"></div>
+                          <button class="btn_swiperpause"><span class="blind">swiper stop</span></button>
+                        </div>
+                      </div> 
+
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="sec_col col_board">
+                  <div class="sec_item item_easy_menu">
+                    <div class="cms_easy">
+                      <h3 class="sec_item_title">
+                        <span class="sub_title">편리하고 안전한</span>
+                        <strong class="title">금융결제원 CMS 서비스</strong>
+                      </h3>
+
+                      <div class="sec_item_conts">
+                        <ul class="cms_easy_list">
+                          <li class="cms_easy_li li_mypage">
+                            <a href="" class="cms_easy_link">
+                              <div class="cms_easy_cont">
+                                <strong class="txt_title">마이페이지</strong>
+                                <span class="txt_sub">바로가기</span>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="cms_easy_li li_cost">
+                            <a href="" class="cms_easy_link">
+                              <div class="cms_easy_cont">
+                                <strong class="txt_title">도입비용</strong>
+                                <span class="txt_sub">알아보기</span>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="cms_easy_li li_consult">
+                            <a href="" class="cms_easy_link">
+                              <div class="cms_easy_cont">
+                                <strong class="txt_title">상담</strong>
+                                <span class="txt_sub">신청하기</span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="sec_item item_kvboard">
+                    <h3 class="sec_item_title">
+                      <strong class="title">알려드립니다</strong>
+                      <button class="btn_primary_txt"><span class="txt">더보기</span></button>
+                    </h3>
+
+                    <div class="swiper swiper_kvboard">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="swiper_kvboard_wrap">
+                            <a href="javascript:void(0);" class="swiper_kvboard_link">
+                              <div class="swiper_kvboard_cont_wrap">
+                                <span class="txt_title">사회복지시설 CMS 온라인 상담페이지 신설</span>
+                                <span class="txt_date">2024.00.00</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="swiper_kvboard_wrap">
+                            <a href="javascript:void(0);" class="swiper_kvboard_link">
+                              <div class="swiper_kvboard_cont_wrap">
+                                <span class="txt_title">CMS 온라인 신규신청 계약 간소화 시범실시 안내 CMS 온라인 신규신청 계약 간소화 시범실시 안내</span>
+                                <span class="txt_date">2024.00.00</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="swiper_kvboard_wrap">
+                            <a href="javascript:void(0);" class="swiper_kvboard_link">
+                              <div class="swiper_kvboard_cont_wrap">
+                                <span class="txt_title">5월 근로자의 날(5.1) 및 대체공휴일(5.6) 관련 CMS서비스 안내</span>
+                                <span class="txt_date">2024.00.00</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper_ctrler">
+                        <div class="swiper_ctrler_inner">
+                          <div class="swiper-pagination"></div>
+                          <button class="btn_swiperpause"><span class="blind">swiper stop</span></button>
+                        </div>
+                      </div> 
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+          </section>
+          <!-- // section kv_swiper -->
+
+          <!-- skooling -->
+          <section class="section sec_skooling">
+            <div class="section_inner">
+              <div class="section_title">
+                <h2 class="title">skooling</h2>
+              </div>
+
+              <div class="skooling_conts">
+                <div class="skooling_dropdownlist">
+                  <div class="dropdown">
+                    <button class="btn_dropdown"><span class="txt">DROPdown01</span></button> <!-- 활성화시 .is-open -->
+                    <div class="dropdown_dep2">
+                      <ul class="dropdown_dep2_list">
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">01텍스트11</span></a></li>
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">01텍스트2</span></a></li>
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">01텍스트3</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="dropdown">
+                    <button class="btn_dropdown"><span class="txt">DROPdown02</span></button> <!-- 활성화시 .is-open -->
+                    <div class="dropdown_dep2">
+                      <ul class="dropdown_dep2_list">
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">02텍스트11</span></a></li>
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">02텍스트2</span></a></li>
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">02텍스트3</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="dropdown">
+                    <button class="btn_dropdown"><span class="txt">DROPdown03</span></button> <!-- 활성화시 .is-open -->
+                    <div class="dropdown_dep2">
+                      <ul class="dropdown_dep2_list">
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">03텍스트11</span></a></li>
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">03텍스트2</span></a></li>
+                        <li class="dropdown_dep2_item"><a href="javascript:void(0);" class="btn_dropdown_dep2"><span class="txt">03텍스트3</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- // skooling -->
+
+          <!-- section cms intro -->
+          <section class="section sec_intro">
+            <div class="section_inner">
+              <div class="section_title">
+                <h2 class="title">신뢰와 안정의 금융결제원 CMS</h2>
+                <span class="title_sub">30년간의 운영으로 쌓아온 안정적인 자금관리 솔루션을 경험해보세요.</span>
+              </div>
+
+              <div class="cms_intro">
+                <ul class="cms_intro_list">
+                  <li class="cms_intro_li li01">
+                    <div class="cms_intro_conts">
+                      국내 전 <em>은행 및<br>증권사</em> 참여
+                    </div>
+                  </li>
+
+                  <li class="cms_intro_li li02">
+                    <div class="cms_intro_conts">
+                      <em>업계 최초 서비스</em> 실시<br>(SINCE 1995)
+                    </div>
+                  </li>
+
+                  <li class="cms_intro_li li03">
+                    <div class="cms_intro_conts">
+                      거래 건수 / 금액(연간)<br><em>10억건+ 110조원+</em>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="cms_intro_btn_wrap">
+                  <a href="" class="btn_primary"><span class="txt">CMS 알아보기</span></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- // section cms intro -->
+
+          <!-- section cms banner -->
+          <section class="section sec_banner">
+            <div class="section_inner">
+              <h2 class="blind">CMS 체험신청</h2>
+              <div class="sec_row">
+                <div class="sec_col">
+                  <div class="sec_item item_experi">
+                    <div class="sec_item_title">
+                      <h3 class="title">미리 체험해 보는 CMS</h3>
+                      <span class="sub_title">CMS의 편리한 기능들을 <br>화면을 통해 설명해 드릴게요.</span>
+                      <a href="" class="btn_primary"><span class="txt">CMS 체험하기</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="sec_col">
+                  <div class="sec_item item_online">
+                    <div class="sec_item_title">
+                      <h3 class="title">CMS 온라인 신청</h3>
+                      <span class="sub_title">고객별로 최적화된 자금관리 솔루션을 제안해 드릴게요.</span>
+                      <a href="" class="btn_primary"><span class="txt">온라인 신청하기</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- // section cms banner -->
+
+          <!-- section cms partner -->
+          <section class="section sec_partner">
+            <div class="section_inner">
+              <div class="section_title">
+                <h2 class="title">나만의 CMS 파트너</h2>
+                <span class="title_sub">업종별 공식 협력사를 통해 전문적인 상담을 받아보세요.</span>
+              </div>
+
+              <div class="swiper_partner_wrap">
+                <div class="swiper swiper_partner">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link link01">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">세무/회계</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link link02">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">임대(렌탈)/할부</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link link03">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">비영리</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link link04">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">IT 서비스</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link  link05">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">관리대행용역</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link  link01">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">어린이집/유치원</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link  link02">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">제조/도매/소매</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link link03">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">기타</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="swiper_partner_slide_wrap">
+                        <a href="javascript:void(0);" class="swiper_partner_link link04">
+                          <div class="swiper_partner_cont_wrap">
+                            <span class="txt_title">사회복지시설</span>
+                            <div class="txt_cont">
+                              <span class="txt_cont_title">가입대상</span>
+                              <span class="txt_cont_inform">
+                                회계법인, 세무법인, 회계사무소,<br>세무사무소, 세무회계자문 등
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper_ctrler">
+                  <div class="swiper_ctrler_inner">
+                    <div class="swiper-scrollbar"></div>
+
+                    <div class="ctrler_navigation">
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                    </div>
+                  </div>
+                </div> 
+
+              </div>
+
+            </div>
+          </section>
+          <!-- // section cms partner -->
+
+          <!-- section cms notiboard -->
+          <section class="section sec_notiboard">
+            <div class="section_inner">
+              <div class="sec_row">
+                <div class="sec_col col_bbs">
+                  <div class="cms_bbs">
+                    <div class="cms_bbs_wrap">
+                      <div class="cms_bbs_box box_notice">
+                        <div class="cms_bbs_box_title">
+                          <h3 class="title">공지사항</h3>
+                          <button class="btn_primary_txt"><span class="txt">더보기</span></button>
+                        </div>
+                        <ul class="cms_bbs_list">
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">CMS 온라인 신규신청 계약 간소화 시범실시 안내</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">사회복지시설 CMS 온라인 상담페이지 신설</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+                          
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">5월 근로자의 날(5.1) 및 대체공휴일(5.6) 관련 CMS서비스 안내</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+                          
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">CMS 이용약관 개정 안내(2024.4.27 시행)</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+                          
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">CMS 이용약관 개정 안내(2024. 3. 7)</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">설 연휴기간(24.2.9.~2.12.) CMS서비스 안내</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="cms_bbs_box box_library">
+                        <div class="cms_bbs_box_title">
+                          <h3 class="title">자료실</h3>
+                          <button class="btn_primary_txt"><span class="txt">더보기</span></button>
+                        </div>
+                        <ul class="cms_bbs_list">
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">CMS 온라인 신규신청 계약 간소화 시범실시 안내</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">사회복지시설 CMS 온라인 상담페이지 신설</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+                          
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">5월 근로자의 날(5.1) 및 대체공휴일(5.6) 관련 CMS서비스 안내</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+                          
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">CMS 이용약관 개정 안내(2024.4.27 시행)</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+                          
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">CMS 이용약관 개정 안내(2024. 3. 7)</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="cms_bbs_li">
+                            <a href="" class="cms_bbs_link">
+                              <div class="cms_bbs_conts">
+                                <span class="conts_title">
+                                  <span class="txt">설 연휴기간(24.2.9.~2.12.) CMS서비스 안내</span>
+                                  <span class="label_new"><span class="blind">신규게시물</span></span>
+                                </span>
+                                <span class="conts_date"><span class="txt">2023.11.11</span></span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="sec_col col_cs">
+                  <div class="cms_cs">
+                    <div class="cms_cs_wrap">
+                      <div class="cms_cs_title">
+                        <h3 class="title">고객센터</h3>
+                        <div class="btn_wrap"><a href="" class="btn_title_link">단축번호 안내</a></div>
+                      </div>
+
+                      <div class="cms_cs_body">
+                        <div class="cms_cs_body_conts conts_noti_msg">
+                          <div class="txt_wrap txt_call">
+                            <a href="" class="btn_txt_call">1577-0000</a>
+                          </div>
+
+                          <div class="txt_wrap txt_date">
+                            <span class="txt">평일 09:00 ~ 17:45</span>
+                            <span class="txt txt_extra">(토 일 공휴일 휴무)</span>
+                          </div>
+                        </div>
+
+                        <div class="cms_cs_body_conts conts_btn_area">
+                          <ul class="conts_btn_list">
+                            <li class="conts_btn_li"><a href="" class="conts_btn_link"><span class="txt">원격지원상담</span></a></li>
+                            <li class="conts_btn_li"><a href="" class="conts_btn_link"><span class="txt">1:1문의</span></a></li>
+                            <li class="conts_btn_li"><a href="" class="conts_btn_link"><span class="txt">FAQ</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- // section cms notiboard -->
+
+        </div>
+        <!-- // Section all -->
+
+      </div>
+    </div>
+    <!--// Container -->
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <div class="footer_inner">
+        <div class="footer_top">
+          <div class="footer_nav">
+            <ul class="footer_nav_list">
+              <li class="footer_nav_li li_policy"><a href="" class="footer_nav_link"><span class="txt">개인정보처리방침</span></a></li>
+              <li class="footer_nav_li"><a href="" class="footer_nav_link"><span class="txt">이용약관</span></a></li>
+              <li class="footer_nav_li"><a href="" class="footer_nav_link" target="_blank" title="새 창 열림"><span class="txt">고객서비스헌장</span></a></li>
+              <li class="footer_nav_li"><a href="" class="footer_nav_link" target="_blank" title="새 창 열림"><span class="txt">저작권정책</span></a></li>
+              <li class="footer_nav_li"><a href="" class="footer_nav_link" target="_blank" title="새 창 열림"><span class="txt">오시는길</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer_btm">
+          <div class="footer_inform">
+            <div class="footer_logo"><span class="blind">금융결제원</span></div>
+
+            <ul class="footer_inform_list">
+              <li class="footer_inform_li"><p class="txt">본관 : (우)06220 서울특별시 강남구 논현로 432(역삼동 717번지)</p></li>
+              <li class="footer_inform_li"><p class="txt">분당센터 : (우)13556 경기도 성남시 분당구 정자일로213번길 9 (정자동 10-3)</p></li>
+            </ul>
+          </div>
+
+          <div class="footer_btn">
+            <div class="footer_btn_item">
+              <a href="" class="footer_btn_link"><span class="txt">보안 프로그램</span></a>
+            </div>
+
+            <div class="footer_btn_item">
+              <div class="familysite">
+                <button class="btn_familysite"><span class="txt">패밀리사이트</span></button>
+                <div class="familysite_list_wrap">
+                  <ul class="familysite_list">
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">금융결제원</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">계좌이체PG</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">계좌정보통합관리</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">패밀리사이트 1</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">패밀리사이트 2</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">패밀리사이트 3</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">패밀리사이트 4</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">패밀리사이트 5</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">패밀리사이트 6</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">패밀리사이트 7</span></a></li>
+                    <li class="familysite_li"><a href="javascript:void(0);" class="familysite_link"><span class="txt">패밀리사이트 8</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_cs">
+            <strong class="footer_cs_title">금융결제원 고객센터</strong>
+            <div class="footer_cs_conts">
+              <span class="txt num">1577-5500</span>
+              <span class="txt">(평일 09:00 ~ 17:45)</span>
+            </div>
+          </div>
+
+          <div class="footer_copyright">
+            <p class="txt">Copyright 2024. KFTC (Korea Financial Telecommunications & Clearings Institute) All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--// Footer -->
+
+  </div>
+
+  <!-- Script -->
+  <!-- <script src="../src/js/libs/jquery.min.js"></script> -->
+  <script src="../src/js/libs/swiper-bundle.min.js"></script>
+  <script src="../src/js/ui2.js"></script>
+  <!-- // Script -->
+
+</body>
+
+</html>
